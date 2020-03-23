@@ -1,0 +1,57 @@
+.what-we-do {
+	background: linear-gradient(
+			109.6deg,
+			rgba($text-color, 1) 11.2%,
+			rgba($primary-color, 1) 81.1%
+		),
+		url("../img/hero1.jpg") no-repeat center;
+	// background-image: linear-gradient( 109.6deg,  rgba(14,11,56,1) 11.2%, rgba(239,37,37,1) 91.1% );
+	background-size: cover;
+	background-attachment: fixed;
+	background-blend-mode: multiply;
+	color: $white;
+	padding: 15vh 0;
+	.heading {
+		h1 {
+			color: $white;
+		}
+	}
+	.wwd-content-block {
+		padding: 1.5rem 0.5rem;
+		h5 {
+			font-size: 1.2rem;
+			font-weight: 600;
+			letter-spacing: 2px;
+			line-height: 1.9rem;
+			text-transform: uppercase;
+			margin-bottom: 1rem;
+		}
+		p {
+			font-size: 1rem;
+			font-weight: 400;
+			color: $text-rev;
+		}
+	}
+}
+
+.what-we-do-dif {
+	padding: 10vh 0;
+	font-size: 1.1rem;
+	font-weight: 500;
+	// font-family: "Josefin Sans", sans-serif;
+}
+
+.what-we-do-dif {
+	// background: lighten($primary-color, 7);
+	background: $white;
+	// color: $text-rev;
+	padding: 5vh 0;
+
+	.heading {
+		h1 {
+			font-size: 2rem;
+			text-transform: capitalize;
+			font-family: "Roboto", sans-serif;
+		}
+	}
+}

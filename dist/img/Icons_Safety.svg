@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e6e6e6;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #e4002b;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        fill: #e4002b;
+      }
+    </style>
+  </defs>
+  <title>Icons</title>
+  <g id="grey_circle" data-name="grey circle">
+    <path class="cls-1" d="M40,1A39,39,0,1,1,1,40,39.0442,39.0442,0,0,1,40,1m0-1A40,40,0,1,0,80,40,40,40,0,0,0,40,0Z"/>
+  </g>
+  <g id="graphic">
+    <path class="cls-2" d="M55,16H25a5,5,0,0,1-5,5V41c0,18,20,26,20,26s20-8,20-26V21A5,5,0,0,1,55,16Z"/>
+    <path class="cls-3" d="M50.7845,22A11.1568,11.1568,0,0,0,54,25.2155V41c0,10.5465-9.7863,17.03-14.0116,19.3346C35.768,58.05,26,51.609,26,41V25.2155A11.1568,11.1568,0,0,0,29.2155,22h21.569m1.154-2H28.0615A9.066,9.066,0,0,1,24,24.0615V41c0,12.46,11.76,19.4727,15.9922,21.5918C44.21,60.4609,56,53.3926,56,41V24.0615A9.066,9.066,0,0,1,51.9385,20Z"/>
+    <polyline class="cls-2" points="31.25 39 37.083 44.833 48.75 33.167"/>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+.how-works {
+	padding: 5vh 0;
+	.heading-content {
+		margin-bottom: 2rem;
+	}
+	.heading {
+		padding-bottom: 15px;
+	}
+	.sub-heading {
+		color: rgba($text-color, 0.7);
+		h4 {
+			font-weight: 600;
+		}
+	}
+	.hw-single {
+		margin-top: 2vh;
+		.hws-heading {
+			h3 {
+				font-size: 1.8rem;
+				font-weight: 700;
+			}
+		}
+		.hws-content {
+			font-size: 1.4rem;
+			font-weight: 600;
+			color: rgba($text-color, 0.7);
+		}
+	}
+}

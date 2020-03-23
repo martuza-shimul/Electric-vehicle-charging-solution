@@ -1,0 +1,68 @@
+.contact {
+	// background: $secondary-color;
+	padding: 8vh 0;
+
+	.contact-box {
+		// padding: 10px 0;
+		.contact-address {
+			display: flex;
+		}
+		h3 {
+			font-size: 1.6rem;
+			line-height: 2.2rem;
+			font-weight: 600;
+			margin: 5px 0 30px 0;
+			color: $text-color;
+			text-transform: capitalize;
+		}
+		p {
+			font-family: "Josefin Sans", sans-serif;
+			img {
+				margin-right: 10px;
+				height: 32px;
+				width: 32px;
+			}
+			span {
+				// display: inline-block;
+				font-size: 1.1rem;
+				color: $text-color;
+				font-weight: 500;
+				margin-left: 5px;
+				font-family: "Josefin Sans", sans-serif;
+
+				a {
+					text-decoration: none;
+					color: $text-color;
+					font-family: "Josefin Sans", sans-serif;
+				}
+			}
+		}
+	}
+
+	.contact-form {
+		padding: 10px 0;
+
+		.form-group {
+			input,
+			textarea {
+				border-color: $primary-color;
+			}
+		}
+		// .button {
+		// 	background: $primary-color;
+		// 	color: $text-rev;
+
+		// 	padding: 10px 30px;
+		// 	border-color: $primary-color;
+		// 	font-size: 1.3rem;
+
+		// 	&:hover {
+		// 		background: $secondary-color;
+		// 		color: $text-rev;
+		// 		border-color: $white;
+		// 		transform: scale(1.03, 1.03);
+		// 		transition: 0.3s ease-in;
+		// 	}
+		// }
+	}
+}

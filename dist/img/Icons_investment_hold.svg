@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e6e6e6;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-2, .cls-5 {
+        stroke: #e4002b;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .cls-3, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #e4002b;
+      }
+    </style>
+  </defs>
+  <title>Icons</title>
+  <g id="grey_circle" data-name="grey circle">
+    <path class="cls-1" d="M40,1A39,39,0,1,1,1,40,39.0441,39.0441,0,0,1,40,1m0-1A40,40,0,1,0,80,40,40,40,0,0,0,40,0Z"/>
+  </g>
+  <g id="graphic">
+    <ellipse class="cls-2" cx="23" cy="32" rx="10" ry="5"/>
+    <path class="cls-2" d="M33,42v5c0,2.7614-4.4772,5-10,5s-10-2.2386-10-5V42"/>
+    <path class="cls-2" d="M53,42v5c0,2.7614-4.4772,5-10,5s-10-2.2386-10-5V42"/>
+    <path class="cls-2" d="M33,37v5c0,2.7614-4.4772,5-10,5s-10-2.2386-10-5V37"/>
+    <path class="cls-2" d="M33,32v5c0,2.7614-4.4772,5-10,5s-10-2.2386-10-5V32"/>
+    <ellipse class="cls-2" cx="43" cy="22" rx="10" ry="5"/>
+    <path class="cls-2" d="M53,37v5c0,2.7614-4.4772,5-10,5s-10-2.2386-10-5V37"/>
+    <path class="cls-2" d="M53,32v5c0,2.7614-4.4772,5-10,5s-10-2.2386-10-5V32"/>
+    <path class="cls-2" d="M53,27v5c0,2.7614-4.4772,5-10,5s-10-2.2386-10-5V27"/>
+    <path class="cls-2" d="M53,22v5c0,2.7614-4.4772,5-10,5s-10-2.2386-10-5V22"/>
+    <g>
+      <circle class="cls-3" cx="53" cy="50" r="14"/>
+      <path class="cls-4" d="M53,37A13,13,0,1,1,40,50,13.0148,13.0148,0,0,1,53,37m0-2A15,15,0,1,0,68,50,15,15,0,0,0,53,35Z"/>
+    </g>
+    <polyline class="cls-5" points="53 41 53 50 61 50"/>
+  </g>
+</svg>

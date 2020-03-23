@@ -1,0 +1,31 @@
+.why-us {
+	background: $white;
+	padding: 8vh 0;
+	color: $text-color;
+
+	.heading {
+		h1 {
+			color: $text-color;
+			// text-transform: capitalize;
+		}
+	}
+	.wu-content-wrapper {
+		.wu-content {
+			font-size: 1.1rem;
+			font-weight: 500;
+
+			.sub-heading {
+				font-family: "Josefin Sans", sans-serif;
+				font-weight: 600;
+				letter-spacing: 1px;
+			}
+		}
+	}
+}
+.wu-content-image {
+	// border: 1px solid $shad;
+	// border-radius: 0.5rem;
+	padding: 1rem;
+	// background: lighten($primary-color, 5);
+	background: $primary-color;
+}

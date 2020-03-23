@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e6e6e6;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #e4002b;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <title>Icons</title>
+  <g id="grey_circle" data-name="grey circle">
+    <path class="cls-1" d="M40,1A39,39,0,1,1,1,40,39.0441,39.0441,0,0,1,40,1m0-1A40,40,0,1,0,80,40,40,40,0,0,0,40,0Z"/>
+  </g>
+  <g id="graphic">
+    <rect class="cls-2" x="30" y="32" width="20" height="20"/>
+    <circle class="cls-2" cx="40" cy="42" r="5"/>
+    <polyline class="cls-2" points="40 38 40 42 42 42"/>
+    <line class="cls-2" x1="30" y1="36" x2="33" y2="36"/>
+    <line class="cls-2" x1="30" y1="48" x2="33" y2="48"/>
+    <line class="cls-2" x1="48" y1="36" x2="50" y2="36"/>
+    <line class="cls-2" x1="48" y1="48" x2="50" y2="48"/>
+    <polyline class="cls-2" points="32 72 32 52 48 52 48 72"/>
+    <line class="cls-2" x1="32" y1="64" x2="47" y2="64"/>
+    <line class="cls-2" x1="36" y1="56" x2="36" y2="60"/>
+    <line class="cls-2" x1="40" y1="56" x2="40" y2="60"/>
+    <line class="cls-2" x1="44" y1="56" x2="44" y2="60"/>
+    <line class="cls-2" x1="36" y1="68" x2="36" y2="72"/>
+    <line class="cls-2" x1="40" y1="68" x2="40" y2="72"/>
+    <line class="cls-2" x1="44" y1="68" x2="44" y2="72"/>
+    <polygon class="cls-2" points="47.714 32 32.286 32 35.714 26 44.286 26 47.714 32"/>
+    <rect class="cls-2" x="36" y="18" width="8" height="8"/>
+    <line class="cls-2" x1="39" y1="22" x2="41" y2="22"/>
+    <polyline class="cls-2" points="35.833 18.417 40 12.25 44.167 18.417"/>
+    <line class="cls-2" x1="40" y1="12" x2="40" y2="7"/>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e6e6e6;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #e4002b;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <title>Icons</title>
+  <g id="grey_circle" data-name="grey circle">
+    <path class="cls-1" d="M40,1A39,39,0,1,1,1,40,39.0441,39.0441,0,0,1,40,1m0-1A40,40,0,1,0,80,40,40,40,0,0,0,40,0Z"/>
+  </g>
+  <g id="graphic">
+    <rect class="cls-2" x="16" y="25" width="48" height="28"/>
+    <line class="cls-2" x1="32" y1="29" x2="64" y2="29"/>
+    <line class="cls-2" x1="32" y1="33" x2="64" y2="33"/>
+    <line class="cls-2" x1="32" y1="37" x2="64" y2="37"/>
+    <line class="cls-2" x1="16" y1="41" x2="64" y2="41"/>
+    <line class="cls-2" x1="16" y1="45" x2="64" y2="45"/>
+    <line class="cls-2" x1="16" y1="49" x2="64" y2="49"/>
+  </g>
+</svg>

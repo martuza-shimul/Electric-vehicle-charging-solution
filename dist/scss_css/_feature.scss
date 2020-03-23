@@ -1,0 +1,40 @@
+.what-is {
+	background: $secondary-color;
+	padding: 5vh 0;
+	.heading {
+		padding-bottom: 15px;
+		h1 {
+			color: $text-color;
+		}
+	}
+	.sub-heading {
+		color: rgba($text-color, 0.7);
+		h4 {
+			font-weight: 600;
+		}
+	}
+}
+.feature-wrapper {
+	margin: 8vh 0 1vh 0;
+	.feature-icon {
+		margin-bottom: 0.8rem;
+		img {
+			background: $text-rev;
+			padding: 1.2rem;
+			border: 5px solid $primary-color;
+			border-radius: 50%;
+		}
+	}
+	.feature-heading {
+		h3 {
+			font-weight: 600;
+			font-size: 1.5rem;
+		}
+	}
+	.feature-content {
+		margin: 1vh 0;
+		color: rgba($text-color, 0.7);
+		font-size: 1.25rem;
+		font-weight: 600;
+	}
+}

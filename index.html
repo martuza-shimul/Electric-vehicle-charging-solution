@@ -13,14 +13,35 @@
     />
 
     <!-- custom css -->
-    <link rel="stylesheet" href="./dist/css/style.css" />
+    <link rel="stylesheet" href="./dist/scss_css/style.css" />
 
-    <title>Electric Vehicle charging solution</title>
+    <title>Electric Car Charging</title>
+
+    <!-- Favicons
+			================================================== -->
+    <link rel="icon" href="./dist/img/favicon.png" type="image/x-icon" />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="144x144"
+      href="./dist/img/favicon.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="72x72"
+      href="./dist/img/favicon.png"
+    />
+    <link rel="apple-touch-icon-precomposed" href="./dist/img/favicon.png" />
   </head>
   <body>
     <div class="wrapper">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">LOGO</a>
+      <nav class="navbar navbar-expand-lg navbar-dark" id="menu">
+        <a href="#" class="navbar-brand">
+          <img
+            class="img-fluid img-responsive"
+            src="./dist/img/logo.png"
+            alt="London PPC logo"
+          />
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -35,56 +56,1038 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
-              >
+            <!-- <li class="nav-item ">
+							<a  class="nav-link" href="#home"
+								>Home <span class="sr-only">(current)</span></a
+							>
+						</li> -->
+            <li class="nav-item">
+              <a class="nav-link scroll" href="#why-turkey">Why turkey</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
+              <a class="nav-link scroll" href="#why-invest">Why invest</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link scroll" href="#options">options</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scroll" href="#process">process</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scroll" href="#contact">Contact</a>
+            </li>
+
+            <li class="nav-item">
               <a
-                class="nav-link disabled"
+                class="nav-link button"
+                id="button"
                 href="#"
-                tabindex="-1"
-                aria-disabled="true"
-                >Disabled</a
+                data-toggle="modal"
+                data-target=".bd-example-modal-lg"
+                >Get started</a
               >
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input
-              class="form-control mr-sm-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-              Search
-            </button>
-          </form>
         </div>
       </nav>
+      <section class="modal-wrapper">
+        <div class="container-lg">
+          <!-- Modal -->
+          <div
+            class="modal fade bd-example-modal-lg "
+            id="exampleModal"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <!-- <div class="modal-header">
+									<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div> -->
+                <div class="modal-body">
+                  <div
+                    class="quote-engine-wrapper d-flex justify-content-center"
+                  >
+                    <form action="./dist/php/data.php" method="POST">
+                      <div class="first">
+                        <h5 class="center-align">How may we help you?</h5>
+                        <p>
+                          <label>
+                            <input
+                              class="with-gap"
+                              name="first"
+                              value="Citizenship and Migration Services"
+                              type="radio"
+                            />
+                            <span>Citizenship and Migration Services</span>
+                            <span class="content"
+                              >We assist you throughout your citizenship
+                              application until you obtain your Turkish ID.
+                            </span>
+                          </label>
+                        </p>
+                        <p>
+                          <label>
+                            <input
+                              class="with-gap"
+                              name="first"
+                              value="Real Estate Due Diligence and Valuation"
+                              type="radio"
+                            />
+                            <span>Real Estate Due Diligence and Valuation</span>
+                            <span class="content"
+                              >We provide nationwide real estate valuation
+                              services to let you know the real market price of
+                              the real estate.
+                            </span>
+                          </label>
+                        </p>
+                        <p>
+                          <label>
+                            <input
+                              class="with-gap"
+                              name="first"
+                              type="radio"
+                              value="Legal Consultancy"
+                            />
+                            <span
+                              >Legal Investment And Real Estate
+                              Consultancy</span
+                            >
+                            <span class="content"
+                              >We help you decide to make the investment that
+                              fits your expectations, purpose and budget. if you
+                              need we provide agency services to find the ideal
+                              real estate for you.</span
+                            >
+                          </label>
+                        </p>
+                        <p>
+                          <label>
+                            <input
+                              class="with-gap"
+                              name="first"
+                              type="radio"
+                              value="Legal Consultancy"
+                            />
+                            <span>Legal Consultancy</span>
+                            <span class="content"
+                              >Legal assistance is necessary to get things done
+                              in a proper and legitimate way. Our lawyers advice
+                              our customers on all the matters related to their
+                              investment in Turkey and citizenship application.
+                            </span>
+                          </label>
+                        </p>
+
+                        <button
+                          onclick="handleRadioClick()"
+                          type="button"
+                          class="btn button"
+                        >
+                          Continue
+                        </button>
+                      </div>
+                      <!-- <div class="second hide">
+												<h5 class="center-align">What will be the Weekly budget?</h5>
+												<p>
+													<label>
+														<input  class="with-gap" name="second" value="£100 - £200" type="radio"  />
+														<span>£100 - £200</span>
+													</label>
+												</p>
+												<p>
+													<label>
+														<input  class="with-gap" name="second" value="£200 - £350" type="radio"  />
+														<span>£200 - £350</span>
+													</label>
+												</p>
+												<p>
+													<label>
+														<input  class="with-gap" name="second" value="£350 - £500" type="radio"  />
+														<span>£350 - £500</span>
+													</label>
+												</p>
+												<p>
+													<label>
+														<input  class="with-gap" name="second" value="£500 - £750" type="radio"  />
+														<span>£500 - £750</span>
+													</label>
+												</p>
+												
+												
+												<button onclick="handlePrice()"  type="button" class="btn button">Continue</button>
+											</div>
+											
+											<div class="third hide">
+												<h5 class="center-align">When do you want to start?</h5>
+												<p>
+													<label>
+														<input  class="with-gap" name="third" type="radio" value="As soon as possible" />
+														<span>As soon as possible</span>
+													</label>
+												</p>
+												
+												<p>
+													<label>
+														<input  class="with-gap" name="third" type="radio" value="Within this  week"  />
+														<span>Within this  week</span>
+													</label>
+												</p>
+												<p>
+													<label>
+														<input  class="with-gap" name="third" type="radio" value="Within the next week"  />
+														<span>Within the next week</span>
+													</label>
+												</p>
+												<p>
+													<label>
+														<input  class="with-gap" name="third" type="radio" value="Within this month"  />
+														<span>Within this month</span>
+													</label>
+												</p>
+												<p>
+													<label>
+														<input  class="with-gap" name="third" type="radio" value="I don't have a specific date in mind"  />
+														<span>I don't have a specific date in mind</span>
+													</label>
+												</p>  
+												<button onclick="handleThird()"  type="button" class="btn button">Continue</button>
+											</div>
+											<div class="fourth hide">
+												<h5 class="center-align">For how long you want to run the campaign?</h5>
+												<p>
+													<label>
+														<input  class="with-gap" name="fourth" type="radio" value="3-6 months" />
+														<span>3-6 months</span>
+													</label>
+												</p>
+												<p>
+													<label>
+														<input  class="with-gap" name="fourth" type="radio" value="6-12 months"  />
+														<span>6-12 months</span>
+													</label>
+												</p>
+												<p>
+													<label>
+														<input  class="with-gap" name="fourth" type="radio" value="12-18 months" />
+														<span>12-18 months</span>
+													</label>
+												</p>
+												<p>
+													<label>
+														<input  class="with-gap" name="fourth" type="radio" value="18-24 months" />
+														<span>18-24 months</span>
+													</label>
+												</p>
+												<button onclick="handleFourth()"  type="button" class="btn button">Continue</button>
+											</div> -->
+                      <div class="last hide">
+                        <h5>Fill up the form to complete this request</h5>
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <input
+                                type="text"
+                                class="form-control"
+                                placeholder="First Name: "
+                                name="first-name"
+                                required
+                              />
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Last Name : "
+                                name="last-name"
+                              />
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <input
+                                type="email"
+                                class="form-control"
+                                id="exampleInputEmail1"
+                                placeholder="Email: "
+                                aria-describedby="emailHelp"
+                                name="email"
+                                required
+                              />
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Phone: "
+                                name="phone"
+                                required
+                              />
+                            </div>
+                          </div>
+
+                          <!-- <div class="col-md-6">
+														<div class="form-group">
+															<input
+																type="text"
+																class="form-control"
+																placeholder="Vehicle Pick-up Postcode"
+																name="pick_post"
+																required
+															/>
+														</div>
+													</div>
+													<div class="col-md-6">
+														<div class="form-group">
+															<input
+																type="text"
+																class="form-control"
+																placeholder="Vehicle Drop off Postcode"
+																name="drop_post"
+																required
+															/>
+														</div>
+													</div> -->
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <textarea
+                                name="message"
+                                class="form-control"
+                                id="exampleFormControlTextarea1"
+                                placeholder="Please mention the date & time that when we should contact you"
+                                rows="3"
+                                required
+                              ></textarea>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="btn button">Submit</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn button" data-dismiss="modal">
+                    X
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="home" class="hero">
+        <div class="container-fluid">
+          <div class="row h-100 ">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">
+              <div class="hero-text text-right ">
+                <div class="container-lg">
+                  <div class="row">
+                    <!-- <div class="col-md-4"></div> -->
+                    <div class="col">
+                      <div class="hero-text-content">
+                        <div class="heading ">
+                          <h1>
+                            introducing home SMART EV
+                          </h1>
+                          <h2>From just £295 fully installed</h2>
+                        </div>
+                        <div class="sub-heading ">
+                          <h5>
+                            HomeSmart EV is a home charging point designed to
+                            help EV drivers take control of their charging
+                            lifestyle and activities. HomeSmart EV is compatible
+                            with all EVs and enables the EV driver to completely
+                            control and manage their charging point
+                          </h5>
+                        </div>
+                        <div class="hero-button">
+                          <button
+                            type="button"
+                            class=" button"
+                            data-toggle="modal"
+                            data-target=".bd-example-modal-lg"
+                          >
+                            Learn more
+                          </button>
+                          <a class="  button-second ml-5" href="#options"
+                            >investment options</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="why-turkey" class="why-us scrollspy">
+        <div class="container-md">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="heading-content">
+                <div class="heading">
+                  <h1>Why Turkish Citizenship Program</h1>
+                </div>
+                <!-- <div class="sub-heading">
+									<h4>London Car Hire is an alternative to leasing, hiring or buying a car. We make finding and running your next car so much easier</h4>
+								</div> -->
+              </div>
+            </div>
+          </div>
+          <div class="wu-content-wrapper">
+            <div class="row align-items-center">
+              <div class="col-md-12">
+                <div class="wu-content">
+                  <p>
+                    Turkey offers a fast route to acquiring a second passport
+                    within 2 months, through property investments from $250,000.
+                    The program features a straightforward application process
+                    without any obligation to declare the investor’s assets or
+                    income generated in other countries, and without their
+                    physical presence being required. Whether it is purchasing
+                    property as an alternative residence, or as a solid
+                    investment with high ROI potential, there are a wide range
+                    of modern apartments and luxury seafront villas, all at
+                    highly competitive prices. Investors can benefit from rental
+                    income and may re-sell after 3 years. The program offers
+                    simplified routes to relocating to both the
+                    <span class="red">UK and USA</span> under respective visa
+                    categories available for Turkish nationals. Investors may
+                    relocate to the UK through the Turkish Businessperson Visa
+                    and start the journey to British Citizenship. Additionally,
+                    there is an option to reside in the US as an E-2 Investor.
+                  </p>
+                </div>
+              </div>
+              <!-- <div class="col-md-6 ">
+								<div class="wu-content-image">
+									<img src="./dist/img/why-us.jpg" alt="what we do image" class="img-fluid">
+								</div>
+							</div> -->
+
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="ec-iconbox text-center">
+                  <div class="ec-icon-holder">
+                    <img src="./dist/img/clock.svg" alt="Icon" />
+                  </div>
+                  <div class="ec-icon-heading">
+                    <h5>Fast citizenship application processing</h5>
+                  </div>
+                  <div class="ec-icon-text">
+                    <p>
+                      Passport granted within 60 days of application submission
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="ec-iconbox text-center">
+                  <div class="ec-icon-holder">
+                    <img src="./dist/img/Icons_property.svg" alt="Icon" />
+                  </div>
+                  <div class="ec-icon-heading">
+                    <h5>Property investment with no donation</h5>
+                  </div>
+                  <div class="ec-icon-text">
+                    <p>
+                      Option to buy one or several properties for a minimum
+                      total value of $250,000
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="ec-iconbox text-center">
+                  <div class="ec-icon-holder">
+                    <img
+                      src="./dist/img/Icons_investment_hold.svg"
+                      alt="Icon"
+                    />
+                  </div>
+                  <div class="ec-icon-heading">
+                    <h5>Potential return on investment</h5>
+                  </div>
+                  <div class="ec-icon-text">
+                    <p>
+                      Rental income and option to re-sell the property in 3
+                      years
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="ec-iconbox text-center">
+                  <div class="ec-icon-holder">
+                    <img src="./dist/img/Icons_family2.svg" alt="Icon" />
+                  </div>
+                  <div class="ec-icon-heading">
+                    <h5>Entire family are eligible</h5>
+                  </div>
+                  <div class="ec-icon-text">
+                    <p>
+                      This includes spouses, children under 18 years old, and
+                      disabled children of any age
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="ec-iconbox text-center">
+                  <div class="ec-icon-holder">
+                    <img src="./dist/img/Icons_countries1.svg" alt="Icon" />
+                  </div>
+                  <div class="ec-icon-heading">
+                    <h5>No residency requirements</h5>
+                  </div>
+                  <div class="ec-icon-text">
+                    <p>
+                      Prior to or after citizenship has been granted, the whole
+                      process can be obtained remotely
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="ec-iconbox text-center">
+                  <div class="ec-icon-holder">
+                    <img src="./dist/img/plane.svg" alt="Icon" />
+                  </div>
+                  <div class="ec-icon-heading">
+                    <h5>Visa-free travel worldwide</h5>
+                  </div>
+                  <div class="ec-icon-text">
+                    <p>
+                      110 countries worldwide, including Singapore, Japan, Qatar
+                      and South Korea
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="ec-iconbox text-center">
+                  <div class="ec-icon-holder">
+                    <img src="./dist/img/Icons_USA.svg" alt="Icon" />
+                  </div>
+                  <div class="ec-icon-heading">
+                    <h5>Fast relocation to the US</h5>
+                  </div>
+                  <div class="ec-icon-text">
+                    <p>
+                      Option to relocate to the US and establish your business
+                      under the USA E-2 Investor Visa
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="ec-iconbox text-center">
+                  <div class="ec-icon-holder">
+                    <img src="./dist/img/Icons_UK_Settlement.svg" alt="Icon" />
+                  </div>
+                  <div class="ec-icon-heading">
+                    <h5>Fast relocation to the UK</h5>
+                  </div>
+                  <div class="ec-icon-text">
+                    <p>
+                      Option to relocate to the UK and establish your business
+                      as a Turkish business person
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="ec-iconbox text-center">
+                  <div class="ec-icon-holder">
+                    <img src="./dist/img/Icons_Safety.svg" alt="Icon" />
+                  </div>
+                  <div class="ec-icon-heading">
+                    <h5>Secure environment</h5>
+                  </div>
+                  <div class="ec-icon-text">
+                    <p>
+                      Over 700,000 expats & 60,000 international companies
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="ec-iconbox text-center">
+                  <div class="ec-icon-holder">
+                    <img
+                      src="./dist/img/Icons_Double_passport.svg"
+                      alt="Icon"
+                    />
+                  </div>
+                  <div class="ec-icon-heading">
+                    <h5>Dual citizenship</h5>
+                  </div>
+                  <div class="ec-icon-text">
+                    <p>
+                      Turkey allows for dual citizenship
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="ec-iconbox text-center">
+                  <div class="ec-icon-holder">
+                    <img
+                      src="./dist/img/Icons_Cyprus__valid_for_life.svg"
+                      alt="Icon"
+                    />
+                  </div>
+                  <div class="ec-icon-heading">
+                    <h5>Valid for life</h5>
+                  </div>
+                  <div class="ec-icon-text">
+                    <p>
+                      Citizenship is transferable to descendants
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="ec-iconbox text-center">
+                  <div class="ec-icon-holder">
+                    <img
+                      src="./dist/img/Icons_High_quality_lifestyle.svg"
+                      alt="Icon"
+                    />
+                  </div>
+                  <div class="ec-icon-heading">
+                    <h5>High standard of living</h5>
+                  </div>
+                  <div class="ec-icon-text">
+                    <p>
+                      Comfortable yet affordable high-quality lifestyle
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="why-invest" class="what-we-do scrollspy">
+        <div class="container-md">
+          <div class="row">
+            <div class="col">
+              <div class="heading-content">
+                <div class="heading">
+                  <h1>WHY INVEST IN TURKEY</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wwd-content-wrapper">
+            <div class="row ">
+              <div class="col">
+                <div class="row wwd-content text-center">
+                  <div class="col-md-4">
+                    <div class="wwd-content-block">
+                      <h5>Bridge between Europe, MENA and Asia</h5>
+                      <p>
+                        Turkey is conveniently located at the intersection of
+                        Europe and Asia.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="wwd-content-block">
+                      <h5>Stable economic growth</h5>
+                      <p>
+                        Turkey is the 13th largest economy in the world and one
+                        of the fastest growing economies among OECD members
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="wwd-content-block">
+                      <h5>Developed infrastructure</h5>
+                      <p>
+                        Turkey has a well-developed technological infrastructure
+                        in transportation, telecommunication and energy
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="wwd-content-block">
+                      <h5>Nature & History</h5>
+                      <p>
+                        Turkey is home to countless historical heritages and
+                        natural attractions.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="wwd-content-block">
+                      <h5>Culture & Cuisine</h5>
+                      <p>
+                        Turkish rich cuisine reflects its blended culture
+                        derived from various nations with different cultures
+                        living together for thousands of years.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="col-lg-6 col-md-5">
+								<div class="wu-content-image">
+									<img src="./dist/img/hero1.jpg" class="img-fluid" alt="image">
+								</div>
+							</div> -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="what-we-do-dif" class="what-we-do-dif scrollspy">
+        <div class="container-md">
+          <div class="row">
+            <div class="col">
+              <div class="heading-content">
+                <div class="heading">
+                  <h1>Visa-free travel to 110 countries worldwide</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wwdd-content-wrapper">
+            <div class="row ">
+              <div class="col">
+                <div class="wwdd-content">
+                  <div class="wwddc-text">
+                    <p>
+                      Turkish passport holders have visa-free or visa on arrival
+                      access to 110 destinations including Singapore, Japan,
+                      Qatar and South Korea. Turkish Citizenship offers the
+                      easiest and most affordable route into the USA and UK.
+                      Turkish citizens may reside in the USA through the USA E-2
+                      Investor Visa (the US E-2 Treaty Program allows citizens
+                      from signatory countries including Turkey to reside in the
+                      US). Moreover, acquiring a Turkish passport is the first
+                      step in relocating to the UK under the Ankara Agreement,
+                      allowing Turkish nationals to set up business in the UK
+                      and relocate within as little as one month. Coupled with
+                      the simplified processing of the Turkish Business Person
+                      Visa it is one of the fastest routes to settling in the UK
+                      with the whole family.
+                    </p>
+                    <a href="./dist/img/countries.jpg" target="_blank">
+                      Check the countries here..</a
+                    >
+                  </div>
+                  <div class="wwddc-image">
+                    <img
+                      src="./dist/img/map.png"
+                      alt="map image"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="options" class="process">
+        <div class="container">
+          <div class="heading">
+            <h1>Investment Options</h1>
+          </div>
+          <div class="content">
+            <p>
+              The most cost-effective option for investors to qualify for the
+              Turkish citizenship program is to buy property in the country for
+              a minimum value of $250,000. The property can be leased to provide
+              rental income. After 3 years from acquiring citizenship investors
+              can re-sell their property. Other alternative investment options
+              include a business set-up as well as cash deposit.
+            </p>
+          </div>
+          <!--first section-->
+          <div class="row align-items-center how-it-works">
+            <div class="col-2 text-center bottom">
+              <div class="circle">1</div>
+            </div>
+            <div class="col-7">
+              <h5>$250,000 — Property</h5>
+              <ul class="list-unstyled">
+                <li>Residential or commercial property purchase</li>
+                <li>
+                  The property can be let for rental income, or sold after 3
+                  years
+                </li>
+                <li>
+                  Investors are not limited to investing into only a single
+                  property and have the right to acquire several properties
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!--path between 1-2-->
+          <div class="row timeline">
+            <div class="col-2">
+              <div class="corner top-right"></div>
+            </div>
+            <div class="col-8">
+              <hr />
+            </div>
+            <div class="col-2">
+              <div class="corner left-bottom"></div>
+            </div>
+          </div>
+          <!--second section-->
+          <div class="row align-items-center justify-content-end how-it-works">
+            <div class="col-7 text-right">
+              <h5>$500,000 — Cash Investment</h5>
+              <ul class="list-unstyled">
+                <li>
+                  Fixed-asset investment confirmed by the Ministry of Industry
+                  and Technology
+                </li>
+                <li>
+                  $500,000 deposit in a Turkish bank for a minimum of 3 years
+                </li>
+                <li>
+                  Government bonds with the potential to receive interest as
+                  income. Investments to be kept for 3 years
+                </li>
+              </ul>
+            </div>
+            <div class="col-2 text-center full">
+              <div class="circle">2</div>
+            </div>
+          </div>
+          <!--path between 2-3-->
+          <div class="row timeline">
+            <div class="col-2">
+              <div class="corner right-bottom"></div>
+            </div>
+            <div class="col-8">
+              <hr />
+            </div>
+            <div class="col-2">
+              <div class="corner top-left"></div>
+            </div>
+          </div>
+          <!--third section-->
+          <div class="row align-items-center how-it-works">
+            <div class="col-2 text-center top">
+              <div class="circle">3</div>
+            </div>
+            <div class="col-7">
+              <h5>A Company Set-up</h5>
+              <p>
+                Option to set up a business and create jobs for at least 50
+                Turkish employees, confirmed by the Ministry of Labor and Social
+                Security
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="experience" id="process">
+        <div class="container-md">
+          <div class="row">
+            <div class="col">
+              <div class="heading">
+                <h1>Turkish Citizenship Acquisition Process</h1>
+              </div>
+              <div class="sub-heading">
+                <h5>
+                  Astons’ focus is to provide a hassle-free and seamless service
+                  throughout the entire process. We will guide you through every
+                  step of the Turkish citizenship acquisition procedure with due
+                  diligence and care, ensuring that your application is
+                  submitted correctly and followed up to application approval.
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="ec-image text-center">
+                <img
+                  src="./dist/img/scheme-md.svg"
+                  class="img-fluid"
+                  alt="process image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact scrollspy">
+        <div class="container-md">
+          <div class="row">
+            <div class="col">
+              <div class="heading">
+                <h1 class=" text-uppercase">Contact Us</h1>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 col-md-6">
+              <div class="contact-form">
+                <form action="./dist/php/contact.php" method="POST">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder=" First name: "
+                          name="name"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Last name: "
+                          name="postcode"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="exampleInputEmail1"
+                          placeholder="Email: "
+                          aria-describedby="emailHelp"
+                          name="email"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Phone: "
+                          name="phone"
+                          required
+                        />
+                      </div>
+                    </div>
+
+                    <!-- <div class="col-md-6">
+											<div class="form-group">
+												<input
+													type="text"
+													class="form-control"
+													placeholder="Pick-up Postcode"
+													name="pick-post"
+													required
+												/>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="form-group">
+												<input
+													type="text"
+													class="form-control"
+													placeholder="Drop off Postcode"
+													name="drop-post"
+													required
+												/>
+											</div>
+										</div> -->
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <textarea
+                          class="form-control"
+                          id="exampleFormControlTextarea1"
+                          placeholder="Message"
+                          rows="3"
+                          name="message"
+                          required
+                        ></textarea>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="submit" class="btn button">Submit</button>
+                </form>
+              </div>
+            </div>
+            <div class="offset-sm-1 col-sm-5 col-md-5">
+              <div class="contact-box ">
+                <h3 class="">
+                  <small>For a prompt response</small> <br />
+                  contact us now
+                </h3>
+                <p>
+                  <img src="./dist/img/call.png" alt="Contact phone number" />
+                  <span><a href="tel:020 8088 3646">020 8088 3646 </a></span>
+                </p>
+                <p>
+                  <img src="./dist/img/email.png" alt="Contact phone number" />
+                  <span>support@london-ppc.co.uk</span>
+                </p>
+                <p class="contact-address">
+                  <img
+                    src="./dist/img/location.png"
+                    alt="Contact phone number"
+                    class="img-fluid"
+                  />
+                  <span
+                    >Kemp House, 160 City Road, London, United Kingdom, EC1V
+                    2NX</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sticky-mobile d-sm-block d-md-none">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <p class="center-align">
+                <img src="./dist/img/call-white.png" alt="Contact" />
+                <a class="" href="tel:020 8088 3646">020 8088 3646</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="footer d-none d-md-block">
+        <div class="container-md">
+          <p class="copy text-center">
+            Copyright © 2020 Turkish Citizenship Advisor. All rights reserved.
+          </p>
+          <p class=" text-center">
+            <a href="./privacy-policy.html">Privacy Policy</a>
+          </p>
+        </div>
+      </section>
     </div>
 
     <!-- bootstrap js CDN -->

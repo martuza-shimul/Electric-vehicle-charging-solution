@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e6e6e6;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #e4002b;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>Icons</title>
+  <g id="grey_circle" data-name="grey circle">
+    <path class="cls-1" d="M40,1A39,39,0,1,1,1,40,39.0441,39.0441,0,0,1,40,1m0-1A40,40,0,1,0,80,40,40,40,0,0,0,40,0Z"/>
+  </g>
+  <g id="graphic">
+    <g>
+      <polygon class="cls-2" points="66 35 14 35 22.667 22 57.333 22 66 35"/>
+      <polygon class="cls-2" points="66 35 40 67.067 14 35 66 35"/>
+      <polyline class="cls-3" points="57.333 22 48.288 35 40 22 31.472 35 22.667 22"/>
+      <polyline class="cls-3" points="48.288 35 40.044 66.713 31.472 35"/>
+    </g>
+  </g>
+</svg>
