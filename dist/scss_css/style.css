@@ -60,9 +60,9 @@
 }
 
 .navbar .navbar-nav .nav-item .button:hover {
-  background: #1e272e;
+  background: transparent;
   color: #fff;
-  border-color: #1e272e;
+  border-color: #f2f2f2;
 }
 
 .navbar.scrolled {
@@ -411,6 +411,7 @@ a:hover {
 
 .why-us .heading h1 {
   color: #1e272e;
+  text-align: center;
 }
 
 .why-us .wu-content-wrapper .wu-content {
@@ -427,6 +428,49 @@ a:hover {
 .wu-content-image {
   padding: 1rem;
   background: #74af28;
+}
+
+.sub-heading,
+.ec-heading {
+  color: #1e272e;
+  padding-bottom: 2rem;
+}
+
+.sub-heading h5,
+.ec-heading h5 {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+.ec-image img {
+  margin: 0 auto;
+}
+
+.ec-iconbox {
+  padding: 1rem 0;
+}
+
+.ec-iconbox .ec-icon-holder {
+  margin: 0.5rem 0;
+}
+
+.ec-iconbox .ec-icon-heading {
+  color: #1e272e;
+}
+
+.ec-iconbox .ec-icon-heading h5 {
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #74af28;
+}
+
+.ec-iconbox .ec-icon-text p {
+  font-size: 0.95rem;
+  line-height: 1.3rem;
+  font-weight: 400;
 }
 
 .what-we-do {
@@ -619,48 +663,6 @@ a:hover {
 .experience {
   padding: 10vh 0;
   background: #fff;
-}
-
-.sub-heading,
-.ec-heading {
-  color: #1e272e;
-  padding-bottom: 2rem;
-}
-
-.sub-heading h5,
-.ec-heading h5 {
-  font-size: 1.2rem;
-  line-height: 2rem;
-  font-weight: 500;
-}
-
-.ec-image img {
-  margin: 0 auto;
-}
-
-.ec-iconbox {
-  padding: 1rem 0;
-}
-
-.ec-iconbox .ec-icon-holder {
-  margin: 0.5rem 0;
-}
-
-.ec-iconbox .ec-icon-heading {
-  color: #1e272e;
-}
-
-.ec-iconbox .ec-icon-heading h5 {
-  font-size: 1.2rem;
-  line-height: 1.7rem;
-  font-weight: 600;
-  letter-spacing: 1px;
-}
-
-.ec-iconbox .ec-icon-text p {
-  font-size: 0.95rem;
-  line-height: 1.3rem;
-  font-weight: 400;
 }
 
 .contact {
