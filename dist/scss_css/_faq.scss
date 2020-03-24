@@ -1,0 +1,32 @@
+.faq {
+  padding: 8vh 0;
+  text-align: center;
+
+  .heading {
+    h1 {
+      color: $primary-color;
+    }
+  }
+}
+.card-header {
+  background: $primary-color;
+}
+.btn-link {
+  color: $text-rev;
+  font-size: 1.15rem;
+  line-height: 2rem;
+  &:hover {
+    color: $text-color;
+    text-decoration: none;
+  }
+  &:focus {
+    color: $background;
+    text-decoration: none;
+  }
+  &:active {
+    color: $white;
+  }
+  &:visited {
+    color: rgba($text-color, 0.7);
+  }
+}

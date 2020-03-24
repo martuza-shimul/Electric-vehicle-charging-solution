@@ -525,6 +525,43 @@ a:hover {
   font-weight: 400;
 }
 
+.faq {
+  padding: 8vh 0;
+  text-align: center;
+}
+
+.faq .heading h1 {
+  color: #74af28;
+}
+
+.card-header {
+  background: #74af28;
+}
+
+.btn-link {
+  color: #f2f2f2;
+  font-size: 1.15rem;
+  line-height: 2rem;
+}
+
+.btn-link:hover {
+  color: #1e272e;
+  text-decoration: none;
+}
+
+.btn-link:focus {
+  color: #d2dae2;
+  text-decoration: none;
+}
+
+.btn-link:active {
+  color: #fff;
+}
+
+.btn-link:visited {
+  color: rgba(30, 39, 46, 0.7);
+}
+
 .what-we-do {
   background: linear-gradient(109.6deg, #1e272e 11.2%, #74af28 81.1%), url("../img/hero1.jpg") no-repeat center;
   background-size: cover;
