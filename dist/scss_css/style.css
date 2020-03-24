@@ -377,7 +377,7 @@ a:hover {
 }
 
 .iconbox-template {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.5);
   padding: 1rem;
   -webkit-box-shadow: 0 3px 6px rgba(128, 142, 155, 0.16), 0 3px 6px rgba(128, 142, 155, 0.23);
           box-shadow: 0 3px 6px rgba(128, 142, 155, 0.16), 0 3px 6px rgba(128, 142, 155, 0.23);
