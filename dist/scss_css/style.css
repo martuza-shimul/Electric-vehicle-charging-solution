@@ -382,6 +382,7 @@ a:hover {
   -webkit-box-shadow: 0 3px 6px rgba(128, 142, 155, 0.16), 0 3px 6px rgba(128, 142, 155, 0.23);
           box-shadow: 0 3px 6px rgba(128, 142, 155, 0.16), 0 3px 6px rgba(128, 142, 155, 0.23);
   text-align: center;
+  border-radius: 0.7rem;
 }
 
 .iconbox-template .icon-img {
@@ -744,6 +745,10 @@ a:hover {
 
 .contact .contact-box p {
   font-family: "Josefin Sans", sans-serif;
+}
+
+.contact .contact-box p .icon {
+  color: #74af28;
 }
 
 .contact .contact-box p img {
@@ -1145,12 +1150,12 @@ body {
 }
 
 ::-moz-selection {
-  color: #f2f2f2;
+  color: #1e272e;
   background: #1e272e;
 }
 
 ::selection {
-  color: #f2f2f2;
+  color: #1e272e;
   background: #1e272e;
 }
 
@@ -1164,5 +1169,16 @@ body {
 
 .safety-logos .sl-single {
   margin: 2vh 0;
+}
+
+.whatsapp-icon {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  z-index: 100;
+}
+
+.whatsapp-icon a i {
+  color: #1aa093;
 }
 /*# sourceMappingURL=style.css.map */

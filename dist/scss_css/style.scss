@@ -48,7 +48,7 @@ body {
   }
 }
 ::selection {
-  color: $text-rev;
+  color: $text-color;
   background: $text-color;
 }
 
@@ -60,5 +60,17 @@ body {
   margin: 5vh 0 2vh 0;
   .sl-single {
     margin: 2vh 0;
+  }
+}
+.whatsapp-icon {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+
+  z-index: 100;
+  a {
+    i {
+      color: darken($secondary-color, 20);
+    }
   }
 }
