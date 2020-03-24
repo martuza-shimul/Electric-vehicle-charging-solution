@@ -19,7 +19,7 @@
 
 .navbar {
   color: #f2f2f2;
-  text-transform: uppercase;
+  text-transform: capitalize;
   position: fixed;
   height: 85px;
   width: 100vw;
