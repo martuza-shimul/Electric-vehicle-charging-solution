@@ -1,0 +1,24 @@
+// ====================from olev-grant.scss==========================
+
+.olev-grant {
+  padding: 8vh 0;
+  background: $white;
+
+  .content {
+    .title {
+      color: $primary-color;
+      text-transform: capitalize;
+      letter-spacing: 1.5px;
+      margin-bottom: 2rem;
+      h3 {
+        font-size: 1.7rem;
+        font-weight: 600;
+      }
+    }
+    .copy {
+      // letter-spacing: 1px;
+      font-size: 1.1rem;
+      line-height: 1.7rem;
+    }
+  }
+}

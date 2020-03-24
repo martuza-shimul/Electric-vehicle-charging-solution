@@ -420,41 +420,6 @@ a:hover {
   transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-.how-works {
-  padding: 5vh 0;
-}
-
-.how-works .heading-content {
-  margin-bottom: 2rem;
-}
-
-.how-works .heading {
-  padding-bottom: 15px;
-}
-
-.how-works .sub-heading {
-  color: rgba(30, 39, 46, 0.7);
-}
-
-.how-works .sub-heading h4 {
-  font-weight: 600;
-}
-
-.how-works .hw-single {
-  margin-top: 2vh;
-}
-
-.how-works .hw-single .hws-heading h3 {
-  font-size: 1.8rem;
-  font-weight: 700;
-}
-
-.how-works .hw-single .hws-content {
-  font-size: 1.4rem;
-  font-weight: 600;
-  color: rgba(30, 39, 46, 0.7);
-}
-
 .why-us {
   background: #fff;
   padding: 8vh 0;
@@ -560,6 +525,28 @@ a:hover {
 
 .btn-link:visited {
   color: rgba(30, 39, 46, 0.7);
+}
+
+.olev-grant {
+  padding: 8vh 0;
+  background: #fff;
+}
+
+.olev-grant .content .title {
+  color: #74af28;
+  text-transform: capitalize;
+  letter-spacing: 1.5px;
+  margin-bottom: 2rem;
+}
+
+.olev-grant .content .title h3 {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.olev-grant .content .copy {
+  font-size: 1.1rem;
+  line-height: 1.7rem;
 }
 
 .what-we-do {
@@ -758,11 +745,6 @@ a:hover {
   top: calc(50% - 3px);
 }
 
-.experience {
-  padding: 10vh 0;
-  background: #fff;
-}
-
 .contact {
   padding: 8vh 0;
 }
@@ -817,42 +799,6 @@ a:hover {
 .contact .contact-form .form-group input,
 .contact .contact-form .form-group textarea {
   border-color: #74af28;
-}
-
-.area-cover {
-  padding: 5vh 0;
-}
-
-.area-cover .flex-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin-top: 20px;
-}
-
-.area-cover .flex-item {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  min-width: 200px;
-}
-
-.area-cover .flex-item li {
-  max-width: 185px;
-}
-
-.area-cover .tabs .tab a {
-  color: #1e272e;
-  font-size: 1rem;
-  margin-top: -10px;
-  text-transform: capitalize;
-}
-
-.area-cover .tabs .indicator {
-  height: 3px;
-  background-color: #40e0d0;
 }
 
 .sticky-mobile {
