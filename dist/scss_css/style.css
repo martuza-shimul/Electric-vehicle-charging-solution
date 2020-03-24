@@ -85,9 +85,9 @@
 }
 
 .navbar.scrolled .navbar-nav .nav-item .button:hover {
-  color: #f2f2f2;
-  background: #1e272e;
-  border-color: #1e272e;
+  color: #74af28;
+  background: transparent;
+  border-color: #74af28;
 }
 
 .hero {
@@ -368,6 +368,55 @@ a:hover {
   font-weight: 600;
 }
 
+.solutions {
+  padding: 8vh 0;
+}
+
+.solutions .heading h1 {
+  color: #74af28;
+}
+
+.iconbox-template {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 1rem;
+  -webkit-box-shadow: 0 3px 6px rgba(128, 142, 155, 0.16), 0 3px 6px rgba(128, 142, 155, 0.23);
+          box-shadow: 0 3px 6px rgba(128, 142, 155, 0.16), 0 3px 6px rgba(128, 142, 155, 0.23);
+  text-align: center;
+}
+
+.iconbox-template .icon-img {
+  padding: 1rem;
+}
+
+.iconbox-template .icon-content {
+  padding: 0.5rem;
+}
+
+.iconbox-template .icon-content .title {
+  margin-bottom: 1rem;
+  color: #74af28;
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 2rem;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+
+.iconbox-template .icon-content .copy {
+  font-size: 1rem;
+  line-height: 1.6rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.iconbox-template:hover {
+  background: #fff;
+  -webkit-box-shadow: 0 3px 10px rgba(128, 142, 155, 0.46), 0 3px 10px rgba(128, 142, 155, 0.53);
+          box-shadow: 0 3px 10px rgba(128, 142, 155, 0.46), 0 3px 10px rgba(128, 142, 155, 0.53);
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
 .how-works {
   padding: 5vh 0;
 }
@@ -527,6 +576,14 @@ a:hover {
   padding: 8vh 0;
 }
 
+.process .heading {
+  margin-bottom: 5vh;
+}
+
+.process .heading h1 {
+  color: #74af28;
+}
+
 .process .content {
   margin-bottom: 2.8rem;
   font-size: 1.1rem;
@@ -611,7 +668,7 @@ a:hover {
 
 .how-it-works.row .col-2.top::after {
   height: 50%;
-  left: 50%;
+  left: calc(50% - 3px);
   top: 0;
 }
 
