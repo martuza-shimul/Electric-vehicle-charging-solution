@@ -414,8 +414,10 @@ a:hover {
   background: #fff;
   -webkit-box-shadow: 0 3px 10px rgba(128, 142, 155, 0.46), 0 3px 10px rgba(128, 142, 155, 0.53);
           box-shadow: 0 3px 10px rgba(128, 142, 155, 0.46), 0 3px 10px rgba(128, 142, 155, 0.53);
-  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  -webkit-transform: scale(1.01, 1.01);
+          transform: scale(1.01, 1.01);
+  -webkit-transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 .how-works {
