@@ -6,11 +6,11 @@
     ),
     url("../img/hero1.jpg") no-repeat center;
   // background-image: linear-gradient( 109.6deg,  rgba(14,11,56,1) 11.2%, rgba(239,37,37,1) 91.1% );
-  background-size: cover;
-  background-attachment: fixed;
-  background-blend-mode: multiply;
-  color: $white;
-  padding: 10vh 0;
+        background-size: cover;
+        background-attachment: fixed;
+        background-blend-mode: multiply;
+        color: $white;
+        padding: 10vh 0;
   .heading {
     h1 {
       color: $white;

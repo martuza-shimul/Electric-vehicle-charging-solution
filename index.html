@@ -99,285 +99,209 @@
       <section class="modal-wrapper">
         <div class="container-lg">
           <!-- Modal -->
-          <div
-            class="modal fade bd-example-modal-lg "
-            id="exampleModal"
-            tabindex="-1"
-            role="dialog"
-            aria-labelledby="exampleModalLabel"
-            aria-hidden="true"
-          >
+          <div class="modal fade bd-example-modal-lg " id="exampleModal" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg" role="document">
               <div class="modal-content">
                 <!-- <div class="modal-header">
-									<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-										<span aria-hidden="true">&times;</span>
-									</button>
-								</div> -->
-                <div class="modal-body">
-                  <div
-                    class="quote-engine-wrapper d-flex justify-content-center"
-                  >
+      									<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+      									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      										<span aria-hidden="true">&times;</span>
+      									</button>
+      								</div> -->
+                <div class="modal-body text-center">
+                  <div class="quote-engine-wrapper d-flex justify-content-center">
                     <form action="./dist/php/data.php" method="POST">
                       <div class="first">
-                        <h5 class="center-align">How may we help you?</h5>
+                        <h5 class="center-align">What you need?</h5>
                         <p>
                           <label>
-                            <input
-                              class="with-gap"
-                              name="first"
-                              value="Citizenship and Migration Services"
-                              type="radio"
-                            />
-                            <span>Citizenship and Migration Services</span>
-                            <span class="content"
-                              >We assist you throughout your citizenship
-                              application until you obtain your Turkish ID.
-                            </span>
+                            <input class="with-gap" name="first" value="I want a charger at home" type="radio" />
+                            <span>I want a charger at home</span>
+                          </label>
+                        </p>
+      
+                        <p>
+                          <label>
+                            <input class="with-gap" name="first" type="radio" value="I want a charger at my business location" />
+                            <span>I want a charger at my business location</span>
                           </label>
                         </p>
                         <p>
                           <label>
-                            <input
-                              class="with-gap"
-                              name="first"
-                              value="Real Estate Due Diligence and Valuation"
-                              type="radio"
-                            />
-                            <span>Real Estate Due Diligence and Valuation</span>
-                            <span class="content"
-                              >We provide nationwide real estate valuation
-                              services to let you know the real market price of
-                              the real estate.
-                            </span>
+                            <input class="with-gap" name="first" type="radio" value="I want a DC(fast) charger" />
+                            <span>I want a DC(fast) charger</span>
                           </label>
                         </p>
-                        <p>
-                          <label>
-                            <input
-                              class="with-gap"
-                              name="first"
-                              type="radio"
-                              value="Legal Consultancy"
-                            />
-                            <span
-                              >Legal Investment And Real Estate
-                              Consultancy</span
-                            >
-                            <span class="content"
-                              >We help you decide to make the investment that
-                              fits your expectations, purpose and budget. if you
-                              need we provide agency services to find the ideal
-                              real estate for you.</span
-                            >
-                          </label>
-                        </p>
-                        <p>
-                          <label>
-                            <input
-                              class="with-gap"
-                              name="first"
-                              type="radio"
-                              value="Legal Consultancy"
-                            />
-                            <span>Legal Consultancy</span>
-                            <span class="content"
-                              >Legal assistance is necessary to get things done
-                              in a proper and legitimate way. Our lawyers advice
-                              our customers on all the matters related to their
-                              investment in Turkey and citizenship application.
-                            </span>
-                          </label>
-                        </p>
-
-                        <button
-                          onclick="handleRadioClick()"
-                          type="button"
-                          class="btn button"
-                        >
-                          Continue
+                        <button onclick="handleRadioClick()" type="button" class="btn button">
+                          Continue <i class="fas fa-long-arrow-alt-right"></i>
                         </button>
                       </div>
-                      <!-- <div class="second hide">
-												<h5 class="center-align">What will be the Weekly budget?</h5>
-												<p>
-													<label>
-														<input  class="with-gap" name="second" value="£100 - £200" type="radio"  />
-														<span>£100 - £200</span>
-													</label>
-												</p>
-												<p>
-													<label>
-														<input  class="with-gap" name="second" value="£200 - £350" type="radio"  />
-														<span>£200 - £350</span>
-													</label>
-												</p>
-												<p>
-													<label>
-														<input  class="with-gap" name="second" value="£350 - £500" type="radio"  />
-														<span>£350 - £500</span>
-													</label>
-												</p>
-												<p>
-													<label>
-														<input  class="with-gap" name="second" value="£500 - £750" type="radio"  />
-														<span>£500 - £750</span>
-													</label>
-												</p>
-												
-												
-												<button onclick="handlePrice()"  type="button" class="btn button">Continue</button>
-											</div>
-											
-											<div class="third hide">
-												<h5 class="center-align">When do you want to start?</h5>
-												<p>
-													<label>
-														<input  class="with-gap" name="third" type="radio" value="As soon as possible" />
-														<span>As soon as possible</span>
-													</label>
-												</p>
-												
-												<p>
-													<label>
-														<input  class="with-gap" name="third" type="radio" value="Within this  week"  />
-														<span>Within this  week</span>
-													</label>
-												</p>
-												<p>
-													<label>
-														<input  class="with-gap" name="third" type="radio" value="Within the next week"  />
-														<span>Within the next week</span>
-													</label>
-												</p>
-												<p>
-													<label>
-														<input  class="with-gap" name="third" type="radio" value="Within this month"  />
-														<span>Within this month</span>
-													</label>
-												</p>
-												<p>
-													<label>
-														<input  class="with-gap" name="third" type="radio" value="I don't have a specific date in mind"  />
-														<span>I don't have a specific date in mind</span>
-													</label>
-												</p>  
-												<button onclick="handleThird()"  type="button" class="btn button">Continue</button>
-											</div>
-											<div class="fourth hide">
-												<h5 class="center-align">For how long you want to run the campaign?</h5>
-												<p>
-													<label>
-														<input  class="with-gap" name="fourth" type="radio" value="3-6 months" />
-														<span>3-6 months</span>
-													</label>
-												</p>
-												<p>
-													<label>
-														<input  class="with-gap" name="fourth" type="radio" value="6-12 months"  />
-														<span>6-12 months</span>
-													</label>
-												</p>
-												<p>
-													<label>
-														<input  class="with-gap" name="fourth" type="radio" value="12-18 months" />
-														<span>12-18 months</span>
-													</label>
-												</p>
-												<p>
-													<label>
-														<input  class="with-gap" name="fourth" type="radio" value="18-24 months" />
-														<span>18-24 months</span>
-													</label>
-												</p>
-												<button onclick="handleFourth()"  type="button" class="btn button">Continue</button>
-											</div> -->
+      
+                      <div class="second hide">
+                        <h5 class="center-align">
+                          Do you need installer?
+                        </h5>
+                        <p>
+                          <label>
+                            <input class="with-gap" name="second" value="Yes" type="radio" />
+                            <span>Yes</span>
+                          </label>
+                        </p>
+                        <p>
+                          <label>
+                            <input class="with-gap" name="second" value="No" type="radio" />
+                            <span>No</span>
+                          </label>
+                        </p>
+      
+                        
+      
+                        <button onclick="handleSecond()" type="button" class="btn button">
+                          Continue <i class="fas fa-long-arrow-alt-right"></i>
+                        </button>
+                      </div>
+      
+                      <div class="third hide">
+                        <h5 class="center-align">When do you want this?</h5>
+                        <p>
+                          <label>
+                            <input class="with-gap" name="third" type="radio" value="As soon as possible" />
+                            <span>As soon as possible</span>
+                          </label>
+                        </p>
+      
+                        <p>
+                          <label>
+                            <input class="with-gap" name="third" type="radio" value="Within this week" />
+                            <span>Within this week</span>
+                          </label>
+                        </p>
+                        <p>
+                          <label>
+                            <input class="with-gap" name="third" type="radio" value="Within this month" />
+                            <span>Within this month</span>
+                          </label>
+                        </p>
+                        <p>
+                          <label>
+                            <input class="with-gap" name="third" type="radio" value="Within next month" />
+                            <span>Within next month</span>
+                          </label>
+                        </p>
+                        <p>
+                          <label>
+                            <input class="with-gap" name="third" type="radio" value="I don't have a specific date in mind" />
+                            <span>I don't have a specific date in mind</span>
+                          </label>
+                        </p>
+                        <button onclick="handleThird()" type="button" class="btn button">
+                          Continue <i class="fas fa-long-arrow-alt-right"></i>
+                        </button>
+                      </div>
+                      <!-- <div class="fourth hide">
+      												<h5 class="center-align">Who will provide the materials?</h5>
+      												<p>
+      													<label>
+      														<input  class="with-gap" name="fourth" type="radio" value="I'll provide the materials" />
+      														<span>I'll provide the materials</span>
+      													</label>
+      												</p>
+      												<p>
+      													<label>
+      														<input  class="with-gap" name="fourth" type="radio" value="You have to provide the materials"  />
+      														<span>You have to provide the materials</span>
+      													</label>
+      												</p>
+      												<p>
+      													<label>
+      														<input  class="with-gap" name="fourth" type="radio" value="I want to talk to the expert about this" />
+      														<span>I want to talk to the expert about this</span>
+      													</label>
+      												</p>
+      												
+      												<button onclick="handleFourth()"  type="button" class="btn button">Continue <i class="fas fa-long-arrow-alt-right"></i></button>
+      											</div> -->
                       <div class="last hide">
-                        <h5>Fill up the form to complete this request</h5>
+                        <h5>Fill up the form to complete this</h5>
                         <div class="row">
                           <div class="col-md-6">
                             <div class="form-group">
-                              <input
-                                type="text"
-                                class="form-control"
-                                placeholder="First Name: "
-                                name="first-name"
-                                required
-                              />
+                              <input type="text" class="form-control" placeholder="Your Name: " name="name" required />
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="form-group">
-                              <input
-                                type="text"
-                                class="form-control"
-                                placeholder="Last Name : "
-                                name="last-name"
-                              />
+                              <input type="text" class="form-control" placeholder="Company Name: " name="company" />
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="form-group">
-                              <input
-                                type="email"
-                                class="form-control"
-                                id="exampleInputEmail1"
-                                placeholder="Email: "
-                                aria-describedby="emailHelp"
-                                name="email"
-                                required
-                              />
+                              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email: "
+                                aria-describedby="emailHelp" name="email" required />
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="form-group">
-                              <input
-                                type="text"
-                                class="form-control"
-                                placeholder="Phone: "
-                                name="phone"
-                                required
-                              />
+                              <input type="text" class="form-control" placeholder="Phone: " name="phone" required />
                             </div>
                           </div>
-
-                          <!-- <div class="col-md-6">
-														<div class="form-group">
-															<input
-																type="text"
-																class="form-control"
-																placeholder="Vehicle Pick-up Postcode"
-																name="pick_post"
-																required
-															/>
-														</div>
-													</div>
-													<div class="col-md-6">
-														<div class="form-group">
-															<input
-																type="text"
-																class="form-control"
-																placeholder="Vehicle Drop off Postcode"
-																name="drop_post"
-																required
-															/>
-														</div>
-													</div> -->
+      
+                          <div class="col-md-6">
+      														<div class="form-group">
+      															<input
+      																type="text"
+      																class="form-control"
+      																placeholder="City"
+      																name="city"
+      																required
+      															/>
+      														</div>
+      											</div>
+      													<div class="col-md-6">
+      														<div class="form-group">
+      															<input
+      																type="text"
+      																class="form-control"
+      																placeholder="Postcode"
+      																name="postcode"
+      																required
+      															/>
+      														</div>
+                                </div>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <input type="text" class="form-control" placeholder="Vehicle Brand name:" name="brand-name" required />
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <input type="text" class="form-control" placeholder="Vehicle Model:" name="vehicle-model" required />
+                            </div>
+                          </div>
                           <div class="col-md-12">
                             <div class="form-group">
-                              <textarea
-                                name="message"
-                                class="form-control"
-                                id="exampleFormControlTextarea1"
-                                placeholder="Please mention the date & time that when we should contact you"
-                                rows="3"
-                                required
-                              ></textarea>
+                              <textarea name="message" class="form-control" id="exampleFormControlTextarea1"
+                                placeholder="Any additional messages" rows="3" required></textarea>
                             </div>
                           </div>
+                          <!-- <div class="col-md-6">
+      														<div class="form-group">
+      															<label for="file">Upload Image or Video (optional):
+      																
+      															</label>
+      															
+      														</div>
+      													</div>
+      													<div class="col-md-6">
+      														<div class="form-group">
+      															<input id="file" type="file" name="uploaded_file"></input>
+      														</div>
+      													</div> -->
                         </div>
-                        <button class="btn button">Submit</button>
+                        <button class="btn button">
+                          Submit <i class="fas fa-paper-plane ml-2"></i>
+                        </button>
                       </div>
                     </form>
                   </div>
@@ -1135,7 +1059,7 @@
                         <input
                           type="text"
                           class="form-control"
-                          placeholder=" First name: "
+                          placeholder=" Your Name: "
                           name="name"
                           required
                         />
@@ -1146,7 +1070,7 @@
                         <input
                           type="text"
                           class="form-control"
-                          placeholder="Last name: "
+                          placeholder="Company Name: "
                           name="postcode"
                           required
                         />
@@ -1204,7 +1128,7 @@
                         <textarea
                           class="form-control"
                           id="exampleFormControlTextarea1"
-                          placeholder="Message"
+                          placeholder="Tell us how may we help you?"
                           rows="3"
                           name="message"
                           required
