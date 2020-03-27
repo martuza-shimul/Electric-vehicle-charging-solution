@@ -13,21 +13,35 @@
 		/>
 
 		<!-- custom css -->
-		<link rel="stylesheet" href="./dist/css/style.css" />
+		<link rel="stylesheet" href="./dist/scss_css/style.css" />
 
-		<title>Turkish Citizenship by Investment</title>
+		<title>Thank You || Electric Car Charging</title>
 
-				<!-- Favicons
-			================================================== -->
-			<link rel="icon" href="./dist/img/favicon.png" type="image/x-icon" />
-			<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./dist/img/favicon.png" />
-			<link rel="apple-touch-icon-precomposed" sizes="72x72" href="./dist/img/favicon.png" />
-			<link rel="apple-touch-icon-precomposed" href="./dist/img/favicon.png" />
+		<!-- Favicons
+				================================================== -->
+		<link rel="icon" href="./dist/img/favicon.png" type="image/x-icon" />
+		<link
+			rel="apple-touch-icon-precomposed"
+			sizes="144x144"
+			href="./dist/img/favicon.png"
+		/>
+		<link
+			rel="apple-touch-icon-precomposed"
+			sizes="72x72"
+			href="./dist/img/favicon.png"
+		/>
+		<link rel="apple-touch-icon-precomposed" href="./dist/img/favicon.png" />
 	</head>
 	<body>
 		<div class="wrapper">
+			<section class="whatsapp-icon">
+				<a href="https://wa.me/447957573632"
+					><i class="fab fa-whatsapp-square fa-3x"></i
+				></a>
+			</section>
 			<nav class="navbar navbar-expand-lg navbar-dark" id="menu">
 				<a href="./index.html" class="navbar-brand">
+					<!-- London HomeSmart EV -->
 					<img
 						class="img-fluid img-responsive"
 						src="./dist/img/logo.png"
@@ -49,18 +63,22 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-auto">
 						<!-- <li class="nav-item ">
-							<a  class="nav-link" href="#home"
-								>Home <span class="sr-only">(current)</span></a
+										<a  class="nav-link" href="#home"
+											>Home <span class="sr-only">(current)</span></a
+										>
+									</li> -->
+						<li class="nav-item">
+							<a class="nav-link scroll" href="./index.html#why-us">Why-us</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link scroll" href="./index.html#solutions"
+								>Solutions</a
 							>
-						</li> -->
-						<li class="nav-item">
-							<a class="nav-link scroll" href="./index.html#why-turkey">Why turkey</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link scroll" href="./index.html#why-invest">Why invest</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link scroll" href="./index.html#options">options</a>
+							<a class="nav-link scroll" href="./index.html#features"
+								>Features</a
+							>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link scroll" href="./index.html#process">process</a>
@@ -68,7 +86,7 @@
 						<li class="nav-item">
 							<a class="nav-link scroll" href="./index.html#contact">Contact</a>
 						</li>
-						
+
 						<li class="nav-item">
 							<a
 								class="nav-link button"
@@ -85,158 +103,209 @@
 			<section class="modal-wrapper">
 				<div class="container-lg">
 					<!-- Modal -->
-					<div class="modal fade bd-example-modal-lg " id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div
+						class="modal fade bd-example-modal-lg "
+						id="exampleModal"
+						tabindex="-1"
+						role="dialog"
+						aria-labelledby="exampleModalLabel"
+						aria-hidden="true"
+					>
 						<div class="modal-dialog modal-lg" role="document">
 							<div class="modal-content">
 								<!-- <div class="modal-header">
-									<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-										<span aria-hidden="true">&times;</span>
-									</button>
-								</div> -->
-								<div class="modal-body">
-									<div class="quote-engine-wrapper d-flex justify-content-center">
+			      									<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+			      									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			      										<span aria-hidden="true">&times;</span>
+			      									</button>
+			      								</div> -->
+								<div class="modal-body text-center">
+									<div
+										class="quote-engine-wrapper d-flex justify-content-center"
+									>
 										<form action="./dist/php/data.php" method="POST">
 											<div class="first">
-												<h5 class="center-align">How may we help you?</h5>
+												<h5 class="center-align">What you need?</h5>
 												<p>
 													<label>
-														<input  class="with-gap" name="first" value="Citizenship and Migration Services" type="radio"  />
-														<span>Citizenship and Migration Services</span>
-														<span class="content">We assist you throughout your citizenship application until you obtain your Turkish ID.  </span>
+														<input
+															class="with-gap"
+															name="first"
+															value="I want a charger at home"
+															type="radio"
+														/>
+														<span>I want a charger at home</span>
+													</label>
+												</p>
+
+												<p>
+													<label>
+														<input
+															class="with-gap"
+															name="first"
+															type="radio"
+															value="I want a charger at my business location"
+														/>
+														<span
+															>I want a charger at my business location</span
+														>
 													</label>
 												</p>
 												<p>
 													<label>
-														<input  class="with-gap" name="first" value="Real Estate Due Diligence and Valuation" type="radio"  />
-														<span>Real Estate Due Diligence and Valuation</span>
-														<span class="content">We provide nationwide real estate valuation services to let you know the real market price of the real estate.  </span>
+														<input
+															class="with-gap"
+															name="first"
+															type="radio"
+															value="I want a DC(fast) charger"
+														/>
+														<span>I want a DC(fast) charger</span>
 													</label>
 												</p>
-												<p>
-													<label>
-														<input  class="with-gap" name="first" type="radio" value="Legal Consultancy"  />
-														<span>Legal Investment And Real Estate Consultancy</span> 
-														<span class="content">We help you decide to make the investment that fits your expectations, purpose and budget. if you need we provide agency services to find the ideal real estate for you.</span>
-													</label>
-												
-												</p>
-												<p>
-													<label>
-														<input  class="with-gap" name="first" type="radio" value="Legal Consultancy"  />
-														<span>Legal Consultancy</span>
-														<span class="content">Legal assistance is necessary to get things done in a proper and legitimate way. Our lawyers advice our customers on all the matters related to their investment in Turkey and citizenship application. </span>
-													</label>
-												</p>
-												
-												
-												<button onclick="handleRadioClick()"  type="button" class="btn button">Continue</button>
+												<button
+													onclick="handleRadioClick()"
+													type="button"
+													class="btn button"
+												>
+													Continue <i class="fas fa-long-arrow-alt-right"></i>
+												</button>
 											</div>
-											<!-- <div class="second hide">
-												<h5 class="center-align">What will be the Weekly budget?</h5>
+
+											<div class="second hide">
+												<h5 class="center-align">
+													Do you need installer?
+												</h5>
 												<p>
 													<label>
-														<input  class="with-gap" name="second" value="£100 - £200" type="radio"  />
-														<span>£100 - £200</span>
+														<input
+															class="with-gap"
+															name="second"
+															value="Yes"
+															type="radio"
+														/>
+														<span>Yes</span>
 													</label>
 												</p>
 												<p>
 													<label>
-														<input  class="with-gap" name="second" value="£200 - £350" type="radio"  />
-														<span>£200 - £350</span>
+														<input
+															class="with-gap"
+															name="second"
+															value="No"
+															type="radio"
+														/>
+														<span>No</span>
 													</label>
 												</p>
-												<p>
-													<label>
-														<input  class="with-gap" name="second" value="£350 - £500" type="radio"  />
-														<span>£350 - £500</span>
-													</label>
-												</p>
-												<p>
-													<label>
-														<input  class="with-gap" name="second" value="£500 - £750" type="radio"  />
-														<span>£500 - £750</span>
-													</label>
-												</p>
-												
-												
-												<button onclick="handlePrice()"  type="button" class="btn button">Continue</button>
+
+												<button
+													onclick="handleSecond()"
+													type="button"
+													class="btn button"
+												>
+													Continue <i class="fas fa-long-arrow-alt-right"></i>
+												</button>
 											</div>
-											
+
 											<div class="third hide">
-												<h5 class="center-align">When do you want to start?</h5>
+												<h5 class="center-align">When do you want this?</h5>
 												<p>
 													<label>
-														<input  class="with-gap" name="third" type="radio" value="As soon as possible" />
+														<input
+															class="with-gap"
+															name="third"
+															type="radio"
+															value="As soon as possible"
+														/>
 														<span>As soon as possible</span>
 													</label>
 												</p>
-												
+
 												<p>
 													<label>
-														<input  class="with-gap" name="third" type="radio" value="Within this  week"  />
-														<span>Within this  week</span>
+														<input
+															class="with-gap"
+															name="third"
+															type="radio"
+															value="Within this week"
+														/>
+														<span>Within this week</span>
 													</label>
 												</p>
 												<p>
 													<label>
-														<input  class="with-gap" name="third" type="radio" value="Within the next week"  />
-														<span>Within the next week</span>
-													</label>
-												</p>
-												<p>
-													<label>
-														<input  class="with-gap" name="third" type="radio" value="Within this month"  />
+														<input
+															class="with-gap"
+															name="third"
+															type="radio"
+															value="Within this month"
+														/>
 														<span>Within this month</span>
 													</label>
 												</p>
 												<p>
 													<label>
-														<input  class="with-gap" name="third" type="radio" value="I don't have a specific date in mind"  />
+														<input
+															class="with-gap"
+															name="third"
+															type="radio"
+															value="Within next month"
+														/>
+														<span>Within next month</span>
+													</label>
+												</p>
+												<p>
+													<label>
+														<input
+															class="with-gap"
+															name="third"
+															type="radio"
+															value="I don't have a specific date in mind"
+														/>
 														<span>I don't have a specific date in mind</span>
 													</label>
-												</p>  
-												<button onclick="handleThird()"  type="button" class="btn button">Continue</button>
+												</p>
+												<button
+													onclick="handleThird()"
+													type="button"
+													class="btn button"
+												>
+													Continue <i class="fas fa-long-arrow-alt-right"></i>
+												</button>
 											</div>
-											<div class="fourth hide">
-												<h5 class="center-align">For how long you want to run the campaign?</h5>
-												<p>
-													<label>
-														<input  class="with-gap" name="fourth" type="radio" value="3-6 months" />
-														<span>3-6 months</span>
-													</label>
-												</p>
-												<p>
-													<label>
-														<input  class="with-gap" name="fourth" type="radio" value="6-12 months"  />
-														<span>6-12 months</span>
-													</label>
-												</p>
-												<p>
-													<label>
-														<input  class="with-gap" name="fourth" type="radio" value="12-18 months" />
-														<span>12-18 months</span>
-													</label>
-												</p>
-												<p>
-													<label>
-														<input  class="with-gap" name="fourth" type="radio" value="18-24 months" />
-														<span>18-24 months</span>
-													</label>
-												</p>
-												<button onclick="handleFourth()"  type="button" class="btn button">Continue</button>
-											</div> -->
+											<!-- <div class="fourth hide">
+			      												<h5 class="center-align">Who will provide the materials?</h5>
+			      												<p>
+			      													<label>
+			      														<input  class="with-gap" name="fourth" type="radio" value="I'll provide the materials" />
+			      														<span>I'll provide the materials</span>
+			      													</label>
+			      												</p>
+			      												<p>
+			      													<label>
+			      														<input  class="with-gap" name="fourth" type="radio" value="You have to provide the materials"  />
+			      														<span>You have to provide the materials</span>
+			      													</label>
+			      												</p>
+			      												<p>
+			      													<label>
+			      														<input  class="with-gap" name="fourth" type="radio" value="I want to talk to the expert about this" />
+			      														<span>I want to talk to the expert about this</span>
+			      													</label>
+			      												</p>
+			      												
+			      												<button onclick="handleFourth()"  type="button" class="btn button">Continue <i class="fas fa-long-arrow-alt-right"></i></button>
+			      											</div> -->
 											<div class="last hide">
-													<h5>Fill up the form to complete this request</h5>
+												<h5>Fill up the form to complete this</h5>
 												<div class="row">
-													
 													<div class="col-md-6">
 														<div class="form-group">
 															<input
 																type="text"
 																class="form-control"
-																placeholder="First Name: "
-																name="first-name"
+																placeholder="Your Name: "
+																name="name"
 																required
 															/>
 														</div>
@@ -246,8 +315,8 @@
 															<input
 																type="text"
 																class="form-control"
-																placeholder="Last Name : "
-																name="last-name"
+																placeholder="Company Name: "
+																name="company"
 															/>
 														</div>
 													</div>
@@ -275,14 +344,14 @@
 															/>
 														</div>
 													</div>
-													
-													<!-- <div class="col-md-6">
+
+													<div class="col-md-6">
 														<div class="form-group">
 															<input
 																type="text"
 																class="form-control"
-																placeholder="Vehicle Pick-up Postcode"
-																name="pick_post"
+																placeholder="City"
+																name="city"
 																required
 															/>
 														</div>
@@ -292,27 +361,71 @@
 															<input
 																type="text"
 																class="form-control"
-																placeholder="Vehicle Drop off Postcode"
-																name="drop_post"
+																placeholder="Postcode"
+																name="postcode"
 																required
 															/>
 														</div>
-													</div> -->
-													<div class="col-md-12">
-															<div class="form-group">
-																	<textarea name="message" class="form-control" id="exampleFormControlTextarea1" placeholder="Please mention the date & time that when we should contact you" rows="3" required></textarea>
-																</div>
 													</div>
-													
+													<div class="col-md-6">
+														<div class="form-group">
+															<input
+																type="text"
+																class="form-control"
+																placeholder="Vehicle Brand name:"
+																name="brand-name"
+																required
+															/>
+														</div>
+													</div>
+													<div class="col-md-6">
+														<div class="form-group">
+															<input
+																type="text"
+																class="form-control"
+																placeholder="Vehicle Model:"
+																name="vehicle-model"
+																required
+															/>
+														</div>
+													</div>
+													<div class="col-md-12">
+														<div class="form-group">
+															<textarea
+																name="message"
+																class="form-control"
+																id="exampleFormControlTextarea1"
+																placeholder="Any additional messages"
+																rows="3"
+																required
+															></textarea>
+														</div>
+													</div>
+													<!-- <div class="col-md-6">
+			      														<div class="form-group">
+			      															<label for="file">Upload Image or Video (optional):
+			      																
+			      															</label>
+			      															
+			      														</div>
+			      													</div>
+			      													<div class="col-md-6">
+			      														<div class="form-group">
+			      															<input id="file" type="file" name="uploaded_file"></input>
+			      														</div>
+			      													</div> -->
 												</div>
-												<button class="btn button">Submit </button>
-											</div>   
+												<button class="btn button">
+													Submit <i class="fas fa-paper-plane ml-2"></i>
+												</button>
+											</div>
 										</form>
 									</div>
 								</div>
 								<div class="modal-footer">
-									<button type="button" class="btn button" data-dismiss="modal">X</button>
-									
+									<button type="button" class="btn button" data-dismiss="modal">
+										X
+									</button>
 								</div>
 							</div>
 						</div>
@@ -322,38 +435,47 @@
 			<section id="home" class="hero">
 				<div class="container-fluid">
 					<div class="row h-100 ">
-						<div class="col-md-3">	</div>
+						<div class="col-md-3"></div>
 						<div class="col-md-9">
-								<div class="hero-text text-right ">
-										<div class="container-lg">
-											<div class="row">
-												<!-- <div class="col-md-4"></div> -->
-												<div class="col">
-													<div class="hero-text-content">
-														<div class="heading ">
-															<h1 class="">Your request has been sent sucessfully. one of our advisor will contact you as soon as possible</h1>
-														</div>
-														<!-- <div class="sub-heading ">
+							<div class="hero-text text-right ">
+								<div class="container-lg">
+									<div class="row">
+										<!-- <div class="col-md-4"></div> -->
+										<div class="col">
+											<div class="hero-text-content">
+												<div class="heading ">
+													<h1 class="">
+														Your request has been sent sucessfully. one of our
+														advisor will contact you as soon as possible
+													</h1>
+												</div>
+												<!-- <div class="sub-heading ">
 															<h5>Coupled with a simplified application process and high ROI property investment projects, the Turkish citizenship program offers efficient routes to relocating to both the UK and USA under respective visa categories available for Turkish nationals.</h5>
 														</div> -->
-														<div class="hero-button">
-															<button type="button" class="btn button"  data-toggle="modal" data-target=".bd-example-modal-lg">Learn more</button>
-															<a  class="btn button button-second ml-5" href="./index.html"  >back to home</a>
-														</div>
-													</div>
+												<div class="hero-button">
+													<!-- <button
+														type="button"
+														class="btn button"
+														data-toggle="modal"
+														data-target=".bd-example-modal-lg"
+													>
+														Learn more
+													</button> -->
+													<a
+														class="btn button button-second ml-5"
+														href="./index.html"
+														>back to home</a
+													>
 												</div>
-											
 											</div>
 										</div>
-				
-										
 									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-			
-			
 		</div>
 
 		<!-- bootstrap js CDN -->
@@ -370,6 +492,12 @@
 		<script
 			src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
 			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+			crossorigin="anonymous"
+		></script>
+
+		<!-- fontawesome cdn -->
+		<script
+			src="https://kit.fontawesome.com/27ad0ca7fa.js"
 			crossorigin="anonymous"
 		></script>
 

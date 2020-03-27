@@ -230,7 +230,8 @@ a:hover {
 }
 
 .button,
-.button-second {
+.button-second,
+.button-third {
   background: #74af28;
   color: #f2f2f2;
   padding: 1rem 1.5rem;
@@ -242,10 +243,11 @@ a:hover {
 }
 
 .button:hover,
-.button-second:hover {
-  background: #1e272e;
-  color: #fff;
-  border-color: #1e272e;
+.button-second:hover,
+.button-third:hover {
+  background: transparent;
+  color: #74af28;
+  border-color: #74af28;
   -webkit-box-shadow: rgba(30, 39, 46, 0.5) 0px 10px 10px -10px;
           box-shadow: rgba(30, 39, 46, 0.5) 0px 10px 10px -10px;
   -webkit-transition: 0.3s ease-in;
@@ -263,6 +265,11 @@ a:hover {
   background: #fff;
   color: #74af28;
   border-color: #fff;
+}
+
+.button-third {
+  padding: 0.4rem 1rem;
+  font-weight: 500;
 }
 
 .hide {
@@ -378,7 +385,7 @@ a:hover {
 
 .iconbox-template {
   background: rgba(255, 255, 255, 0.5);
-  padding: 1rem;
+  padding: 2rem 1rem;
   -webkit-box-shadow: 0 3px 6px rgba(128, 142, 155, 0.16), 0 3px 6px rgba(128, 142, 155, 0.23);
           box-shadow: 0 3px 6px rgba(128, 142, 155, 0.16), 0 3px 6px rgba(128, 142, 155, 0.23);
   text-align: center;
@@ -859,8 +866,8 @@ a:hover {
 .page-header {
   height: 60vh;
   padding: 15vh 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(116, 175, 40, 0.5)), to(rgba(30, 39, 46, 0.3))), url("../img/hero.jpg") no-repeat bottom;
-  background: linear-gradient(rgba(116, 175, 40, 0.5), rgba(30, 39, 46, 0.3)), url("../img/hero.jpg") no-repeat bottom;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(30, 39, 46, 0.3)), to(rgba(116, 175, 40, 0.5))), url("../img/electric-car.jpg") no-repeat bottom;
+  background: linear-gradient(rgba(30, 39, 46, 0.3), rgba(116, 175, 40, 0.5)), url("../img/electric-car.jpg") no-repeat bottom;
   background-size: cover;
   background-blend-mode: multiply;
 }

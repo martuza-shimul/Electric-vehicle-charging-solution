@@ -1,48 +1,48 @@
 // ====================from solutions.scss==========================
 
 .solutions {
-  padding: 8vh 0;
+	padding: 8vh 0;
 
-  .heading {
-    h1 {
-      color: $primary-color;
-    }
-  }
+	.heading {
+		h1 {
+			color: $primary-color;
+		}
+	}
 }
 .iconbox-template {
-  background: rgba($white, 0.5);
-  padding: 1rem;
-  box-shadow: 0 3px 6px rgba($shad, 0.16), 0 3px 6px rgba($shad, 0.23);
-  text-align: center;
-  border-radius: 0.7rem;
-  .icon-img {
-    padding: 1rem;
-  }
-  .icon-content {
-    // margin-top: 1.5rem;
-    padding: 0.5rem;
+	background: rgba($white, 0.5);
+	padding: 2rem 1rem;
+	box-shadow: 0 3px 6px rgba($shad, 0.16), 0 3px 6px rgba($shad, 0.23);
+	text-align: center;
+	border-radius: 0.7rem;
+	.icon-img {
+		padding: 1rem;
+	}
+	.icon-content {
+		// margin-top: 1.5rem;
+		padding: 0.5rem;
 
-    .title {
-      margin-bottom: 1rem;
-      color: $primary-color;
-      font-size: 1.3rem;
-      font-weight: 600;
-      line-height: 2rem;
-      text-transform: capitalize;
-      letter-spacing: 2px;
-    }
-    .copy {
-      font-size: 1rem;
-      line-height: 1.6rem;
-      font-weight: 500;
-      letter-spacing: 0.5px;
-    }
-  }
-  &:hover {
-    background: $white;
-    // box-shadow: 5px 5px 5px 10px $shad;
-    box-shadow: 0 3px 10px rgba($shad, 0.46), 0 3px 10px rgba($shad, 0.53);
-    transform: scale(1.01, 1.01);
-    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
-  }
+		.title {
+			margin-bottom: 1rem;
+			color: $primary-color;
+			font-size: 1.3rem;
+			font-weight: 600;
+			line-height: 2rem;
+			text-transform: capitalize;
+			letter-spacing: 2px;
+		}
+		.copy {
+			font-size: 1rem;
+			line-height: 1.6rem;
+			font-weight: 500;
+			letter-spacing: 0.5px;
+		}
+	}
+	&:hover {
+		background: $white;
+		// box-shadow: 5px 5px 5px 10px $shad;
+		box-shadow: 0 3px 10px rgba($shad, 0.46), 0 3px 10px rgba($shad, 0.53);
+		transform: scale(1.01, 1.01);
+		transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+	}
 }

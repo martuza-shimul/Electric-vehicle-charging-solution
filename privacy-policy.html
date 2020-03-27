@@ -13,22 +13,36 @@
 		/>
 
 		<!-- custom css -->
-		<link rel="stylesheet" href="./dist/css/style.css" />
+		<link rel="stylesheet" href="./dist/scss_css/style.css" />
 
-		<title>Turkish Citizenship by Investment</title>
+		<title>Privacy Policy || Electric Car Charging</title>
 
-				<!-- Favicons
-			================================================== -->
-			<link rel="icon" href="./dist/img/favicon.png" type="image/x-icon" />
-			<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./dist/img/favicon.png" />
-			<link rel="apple-touch-icon-precomposed" sizes="72x72" href="./dist/img/favicon.png" />
-			<link rel="apple-touch-icon-precomposed" href="./dist/img/favicon.png" />
+		<!-- Favicons
+					================================================== -->
+		<link rel="icon" href="./dist/img/favicon.png" type="image/x-icon" />
+		<link
+			rel="apple-touch-icon-precomposed"
+			sizes="144x144"
+			href="./dist/img/favicon.png"
+		/>
+		<link
+			rel="apple-touch-icon-precomposed"
+			sizes="72x72"
+			href="./dist/img/favicon.png"
+		/>
+		<link rel="apple-touch-icon-precomposed" href="./dist/img/favicon.png" />
 	</head>
 
 	<body data-spy="scroll" data-target="#menu">
 		<div class="wrapper">
+			<section class="whatsapp-icon">
+				<a href="https://wa.me/447957573632"
+					><i class="fab fa-whatsapp-square fa-3x"></i
+				></a>
+			</section>
 			<nav class="navbar navbar-expand-lg navbar-dark" id="menu">
 				<a href="./index.html" class="navbar-brand">
+					<!-- London HomeSmart EV -->
 					<img
 						class="img-fluid img-responsive"
 						src="./dist/img/logo.png"
@@ -50,18 +64,22 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-auto">
 						<!-- <li class="nav-item ">
-							<a  class="nav-link" href="#home"
-								>Home <span class="sr-only">(current)</span></a
+													<a  class="nav-link" href="#home"
+														>Home <span class="sr-only">(current)</span></a
+													>
+												</li> -->
+						<li class="nav-item">
+							<a class="nav-link scroll" href="./index.html#why-us">Why-us</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link scroll" href="./index.html#solutions"
+								>Solutions</a
 							>
-						</li> -->
-						<li class="nav-item">
-							<a class="nav-link scroll" href="./index.html#why-turkey">Why turkey</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link scroll" href="./index.html#why-invest">Why invest</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link scroll" href="./index.html#options">options</a>
+							<a class="nav-link scroll" href="./index.html#features"
+								>Features</a
+							>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link scroll" href="./index.html#process">process</a>
@@ -69,7 +87,7 @@
 						<li class="nav-item">
 							<a class="nav-link scroll" href="./index.html#contact">Contact</a>
 						</li>
-						
+
 						<li class="nav-item">
 							<a
 								class="nav-link button"
@@ -86,158 +104,209 @@
 			<section class="modal-wrapper">
 				<div class="container-lg">
 					<!-- Modal -->
-					<div class="modal fade bd-example-modal-lg " id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div
+						class="modal fade bd-example-modal-lg "
+						id="exampleModal"
+						tabindex="-1"
+						role="dialog"
+						aria-labelledby="exampleModalLabel"
+						aria-hidden="true"
+					>
 						<div class="modal-dialog modal-lg" role="document">
 							<div class="modal-content">
 								<!-- <div class="modal-header">
-									<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-										<span aria-hidden="true">&times;</span>
-									</button>
-								</div> -->
-								<div class="modal-body">
-									<div class="quote-engine-wrapper d-flex justify-content-center">
+						      									<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+						      									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						      										<span aria-hidden="true">&times;</span>
+						      									</button>
+						      								</div> -->
+								<div class="modal-body text-center">
+									<div
+										class="quote-engine-wrapper d-flex justify-content-center"
+									>
 										<form action="./dist/php/data.php" method="POST">
 											<div class="first">
-												<h5 class="center-align">How may we help you?</h5>
+												<h5 class="center-align">What you need?</h5>
 												<p>
 													<label>
-														<input  class="with-gap" name="first" value="Citizenship and Migration Services" type="radio"  />
-														<span>Citizenship and Migration Services</span>
-														<span class="content">We assist you throughout your citizenship application until you obtain your Turkish ID.  </span>
+														<input
+															class="with-gap"
+															name="first"
+															value="I want a charger at home"
+															type="radio"
+														/>
+														<span>I want a charger at home</span>
+													</label>
+												</p>
+
+												<p>
+													<label>
+														<input
+															class="with-gap"
+															name="first"
+															type="radio"
+															value="I want a charger at my business location"
+														/>
+														<span
+															>I want a charger at my business location</span
+														>
 													</label>
 												</p>
 												<p>
 													<label>
-														<input  class="with-gap" name="first" value="Real Estate Due Diligence and Valuation" type="radio"  />
-														<span>Real Estate Due Diligence and Valuation</span>
-														<span class="content">We provide nationwide real estate valuation services to let you know the real market price of the real estate.  </span>
+														<input
+															class="with-gap"
+															name="first"
+															type="radio"
+															value="I want a DC(fast) charger"
+														/>
+														<span>I want a DC(fast) charger</span>
 													</label>
 												</p>
-												<p>
-													<label>
-														<input  class="with-gap" name="first" type="radio" value="Legal Consultancy"  />
-														<span>Legal Investment And Real Estate Consultancy</span> 
-														<span class="content">We help you decide to make the investment that fits your expectations, purpose and budget. if you need we provide agency services to find the ideal real estate for you.</span>
-													</label>
-												
-												</p>
-												<p>
-													<label>
-														<input  class="with-gap" name="first" type="radio" value="Legal Consultancy"  />
-														<span>Legal Consultancy</span>
-														<span class="content">Legal assistance is necessary to get things done in a proper and legitimate way. Our lawyers advice our customers on all the matters related to their investment in Turkey and citizenship application. </span>
-													</label>
-												</p>
-												
-												
-												<button onclick="handleRadioClick()"  type="button" class="btn button">Continue</button>
+												<button
+													onclick="handleRadioClick()"
+													type="button"
+													class="btn button"
+												>
+													Continue <i class="fas fa-long-arrow-alt-right"></i>
+												</button>
 											</div>
-											<!-- <div class="second hide">
-												<h5 class="center-align">What will be the Weekly budget?</h5>
+
+											<div class="second hide">
+												<h5 class="center-align">
+													Do you need installer?
+												</h5>
 												<p>
 													<label>
-														<input  class="with-gap" name="second" value="£100 - £200" type="radio"  />
-														<span>£100 - £200</span>
+														<input
+															class="with-gap"
+															name="second"
+															value="Yes"
+															type="radio"
+														/>
+														<span>Yes</span>
 													</label>
 												</p>
 												<p>
 													<label>
-														<input  class="with-gap" name="second" value="£200 - £350" type="radio"  />
-														<span>£200 - £350</span>
+														<input
+															class="with-gap"
+															name="second"
+															value="No"
+															type="radio"
+														/>
+														<span>No</span>
 													</label>
 												</p>
-												<p>
-													<label>
-														<input  class="with-gap" name="second" value="£350 - £500" type="radio"  />
-														<span>£350 - £500</span>
-													</label>
-												</p>
-												<p>
-													<label>
-														<input  class="with-gap" name="second" value="£500 - £750" type="radio"  />
-														<span>£500 - £750</span>
-													</label>
-												</p>
-												
-												
-												<button onclick="handlePrice()"  type="button" class="btn button">Continue</button>
+
+												<button
+													onclick="handleSecond()"
+													type="button"
+													class="btn button"
+												>
+													Continue <i class="fas fa-long-arrow-alt-right"></i>
+												</button>
 											</div>
-											
+
 											<div class="third hide">
-												<h5 class="center-align">When do you want to start?</h5>
+												<h5 class="center-align">When do you want this?</h5>
 												<p>
 													<label>
-														<input  class="with-gap" name="third" type="radio" value="As soon as possible" />
+														<input
+															class="with-gap"
+															name="third"
+															type="radio"
+															value="As soon as possible"
+														/>
 														<span>As soon as possible</span>
 													</label>
 												</p>
-												
+
 												<p>
 													<label>
-														<input  class="with-gap" name="third" type="radio" value="Within this  week"  />
-														<span>Within this  week</span>
+														<input
+															class="with-gap"
+															name="third"
+															type="radio"
+															value="Within this week"
+														/>
+														<span>Within this week</span>
 													</label>
 												</p>
 												<p>
 													<label>
-														<input  class="with-gap" name="third" type="radio" value="Within the next week"  />
-														<span>Within the next week</span>
-													</label>
-												</p>
-												<p>
-													<label>
-														<input  class="with-gap" name="third" type="radio" value="Within this month"  />
+														<input
+															class="with-gap"
+															name="third"
+															type="radio"
+															value="Within this month"
+														/>
 														<span>Within this month</span>
 													</label>
 												</p>
 												<p>
 													<label>
-														<input  class="with-gap" name="third" type="radio" value="I don't have a specific date in mind"  />
+														<input
+															class="with-gap"
+															name="third"
+															type="radio"
+															value="Within next month"
+														/>
+														<span>Within next month</span>
+													</label>
+												</p>
+												<p>
+													<label>
+														<input
+															class="with-gap"
+															name="third"
+															type="radio"
+															value="I don't have a specific date in mind"
+														/>
 														<span>I don't have a specific date in mind</span>
 													</label>
-												</p>  
-												<button onclick="handleThird()"  type="button" class="btn button">Continue</button>
+												</p>
+												<button
+													onclick="handleThird()"
+													type="button"
+													class="btn button"
+												>
+													Continue <i class="fas fa-long-arrow-alt-right"></i>
+												</button>
 											</div>
-											<div class="fourth hide">
-												<h5 class="center-align">For how long you want to run the campaign?</h5>
-												<p>
-													<label>
-														<input  class="with-gap" name="fourth" type="radio" value="3-6 months" />
-														<span>3-6 months</span>
-													</label>
-												</p>
-												<p>
-													<label>
-														<input  class="with-gap" name="fourth" type="radio" value="6-12 months"  />
-														<span>6-12 months</span>
-													</label>
-												</p>
-												<p>
-													<label>
-														<input  class="with-gap" name="fourth" type="radio" value="12-18 months" />
-														<span>12-18 months</span>
-													</label>
-												</p>
-												<p>
-													<label>
-														<input  class="with-gap" name="fourth" type="radio" value="18-24 months" />
-														<span>18-24 months</span>
-													</label>
-												</p>
-												<button onclick="handleFourth()"  type="button" class="btn button">Continue</button>
-											</div> -->
+											<!-- <div class="fourth hide">
+						      												<h5 class="center-align">Who will provide the materials?</h5>
+						      												<p>
+						      													<label>
+						      														<input  class="with-gap" name="fourth" type="radio" value="I'll provide the materials" />
+						      														<span>I'll provide the materials</span>
+						      													</label>
+						      												</p>
+						      												<p>
+						      													<label>
+						      														<input  class="with-gap" name="fourth" type="radio" value="You have to provide the materials"  />
+						      														<span>You have to provide the materials</span>
+						      													</label>
+						      												</p>
+						      												<p>
+						      													<label>
+						      														<input  class="with-gap" name="fourth" type="radio" value="I want to talk to the expert about this" />
+						      														<span>I want to talk to the expert about this</span>
+						      													</label>
+						      												</p>
+						      												
+						      												<button onclick="handleFourth()"  type="button" class="btn button">Continue <i class="fas fa-long-arrow-alt-right"></i></button>
+						      											</div> -->
 											<div class="last hide">
-													<h5>Fill up the form to complete this request</h5>
+												<h5>Fill up the form to complete this</h5>
 												<div class="row">
-													
 													<div class="col-md-6">
 														<div class="form-group">
 															<input
 																type="text"
 																class="form-control"
-																placeholder="First Name: "
-																name="first-name"
+																placeholder="Your Name: "
+																name="name"
 																required
 															/>
 														</div>
@@ -247,8 +316,8 @@
 															<input
 																type="text"
 																class="form-control"
-																placeholder="Last Name : "
-																name="last-name"
+																placeholder="Company Name: "
+																name="company"
 															/>
 														</div>
 													</div>
@@ -276,14 +345,14 @@
 															/>
 														</div>
 													</div>
-													
-													<!-- <div class="col-md-6">
+
+													<div class="col-md-6">
 														<div class="form-group">
 															<input
 																type="text"
 																class="form-control"
-																placeholder="Vehicle Pick-up Postcode"
-																name="pick_post"
+																placeholder="City"
+																name="city"
 																required
 															/>
 														</div>
@@ -293,27 +362,71 @@
 															<input
 																type="text"
 																class="form-control"
-																placeholder="Vehicle Drop off Postcode"
-																name="drop_post"
+																placeholder="Postcode"
+																name="postcode"
 																required
 															/>
 														</div>
-													</div> -->
-													<div class="col-md-12">
-															<div class="form-group">
-																	<textarea name="message" class="form-control" id="exampleFormControlTextarea1" placeholder="Please mention the date & time that when we should contact you" rows="3" required></textarea>
-																</div>
 													</div>
-													
+													<div class="col-md-6">
+														<div class="form-group">
+															<input
+																type="text"
+																class="form-control"
+																placeholder="Vehicle Brand name:"
+																name="brand-name"
+																required
+															/>
+														</div>
+													</div>
+													<div class="col-md-6">
+														<div class="form-group">
+															<input
+																type="text"
+																class="form-control"
+																placeholder="Vehicle Model:"
+																name="vehicle-model"
+																required
+															/>
+														</div>
+													</div>
+													<div class="col-md-12">
+														<div class="form-group">
+															<textarea
+																name="message"
+																class="form-control"
+																id="exampleFormControlTextarea1"
+																placeholder="Any additional messages"
+																rows="3"
+																required
+															></textarea>
+														</div>
+													</div>
+													<!-- <div class="col-md-6">
+						      														<div class="form-group">
+						      															<label for="file">Upload Image or Video (optional):
+						      																
+						      															</label>
+						      															
+						      														</div>
+						      													</div>
+						      													<div class="col-md-6">
+						      														<div class="form-group">
+						      															<input id="file" type="file" name="uploaded_file"></input>
+						      														</div>
+						      													</div> -->
 												</div>
-												<button class="btn button">Submit </button>
-											</div>   
+												<button class="btn button">
+													Submit <i class="fas fa-paper-plane ml-2"></i>
+												</button>
+											</div>
 										</form>
 									</div>
 								</div>
 								<div class="modal-footer">
-									<button type="button" class="btn button" data-dismiss="modal">X</button>
-									
+									<button type="button" class="btn button" data-dismiss="modal">
+										X
+									</button>
 								</div>
 							</div>
 						</div>
@@ -334,207 +447,243 @@
 				</div>
 			</section>
 			<section class="privacy-policy">
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <p>
-                <strong>Effective date:</strong> January 2nd 2020 Turkish Citizenship Advisor (“us”, “we”, or
-                “our”) operates the https://london-tca.co.uk/ website (the “Service”). This page
-                informs you of our policies regarding the collection, use, and disclosure of
-                personal data when you use our Service and the choices you have associated with that
-                data. We use your data to provide and improve the Service. By using the Service, you
-                agree to the collection and use of information in accordance with this policy.
-                Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy
-                have the same meanings as in our Terms and Conditions, accessible from
-                https://london-tca.co.uk/
-              </p>
-              <div>
-                <h4>Information Collection And Use</h4>
-                <p>
-                  We collect several different types of information for various purposes to provide
-                  and improve our Service to you.
-                </p>
-              </div>
-              <div>
-                <h3>Types of Data Collected</h3>
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<p>
+								<strong>Effective date:</strong> January 2nd 2020 Turkish
+								Citizenship Advisor (“us”, “we”, or “our”) operates the
+								https://london-ec.co.uk/ website (the “Service”). This page
+								informs you of our policies regarding the collection, use, and
+								disclosure of personal data when you use our Service and the
+								choices you have associated with that data. We use your data to
+								provide and improve the Service. By using the Service, you agree
+								to the collection and use of information in accordance with this
+								policy. Unless otherwise defined in this Privacy Policy, terms
+								used in this Privacy Policy have the same meanings as in our
+								Terms and Conditions, accessible from https://london-ec.co.uk/
+							</p>
+							<div>
+								<h4>Information Collection And Use</h4>
+								<p>
+									We collect several different types of information for various
+									purposes to provide and improve our Service to you.
+								</p>
+							</div>
+							<div>
+								<h3>Types of Data Collected</h3>
 
-                <div>
-                  <h4>Personal Data</h4>
-                  <p>
-                    While using our Service, we may ask you to provide us with certain personally
-                    identifiable information that can be used to contact or identify you (“Personal
-                    Data”). Personally identifiable information may include, but is not limited to:
-                  </p>
-                  <ul>
-                    <li>Email address</li>
-                    <li>First name and last name</li>
-                    <li>Phone number</li>
-                    <li>Address, State, Province, ZIP/Postal code, City</li>
-                    <li>Cookies and Usage Data</li>
-                  </ul>
-                </div>
-                <div>
-                  <h4>Usage Data</h4>
-                  <p>
-                    We may also collect information how the Service is accessed and used (“Usage
-                    Data”). This Usage Data may include information such as your computer’s Internet
-                    Protocol address (e.g. IP address), browser type, browser version, the pages of
-                    our Service that you visit, the time and date of your visit, the time spent on
-                    those pages, unique device identifiers and other diagnostic data.
-                  </p>
-                </div>
-                <div>
-                  <h4>Tracking & Cookies Data</h4>
-                  <p>
-                    We use cookies and similar tracking technologies to track the activity on our
-                    Service and hold certain information. Cookies are files with small amount of
-                    data which may include an anonymous unique identifier. Cookies are sent to your
-                    browser from a website and stored on your device. Tracking technologies also
-                    used are beacons, tags, and scripts to collect and track information and to
-                    improve and analyze our Service. You can instruct your browser to refuse all
-                    cookies or to indicate when a cookie is being sent. However, if you do not
-                    accept cookies, you may not be able to use some portions of our Service.
-                    Examples of Cookies we use: <br />
-                    <strong>Session Cookies:</strong> We use Session Cookies to operate our Service.
-                    <br />
-                    <strong>Preference Cookies:</strong> We use Preference Cookies to remember your
-                    preferences and various settings. <br />
-                    <strong>Security Cookies:</strong> We use Security Cookies for security
-                    purposes.
-                  </p>
-                </div>
-                <div>
-                  <h4>Use of Data</h4>
-                  <p>Turkish Citizenship Advisor uses the collected data for various purposes:</p>
-                  <ul>
-                    <li>To provide and maintain the Service</li>
-                    <li>To notify you about changes to our Service</li>
-                    <li>
-                      To allow you to participate in interactive features of our Service when you
-                      choose to do so
-                    </li>
-                    <li>
-                      To provide analysis or valuable information so that we can improve the Service
-                    </li>
-                    <li>To monitor the usage of the Service</li>
-                    <li>To detect, prevent and address technical issuese</li>
-                  </ul>
-                </div>
-                <div>
-                  <h4>Transfer Of Data</h4>
-                  <p>
-                    Your information, including Personal Data, may be transferred to — and
-                    maintained on — computers located outside of your state, province, country or
-                    other governmental jurisdiction where the data protection laws may differ than
-                    those from your jurisdiction. If you are located outside United Kingdom and
-                    choose to provide information to us, please note that we transfer the data,
-                    including Personal Data, to United Kingdom and process it there. Your consent to
-                    this Privacy Policy followed by your submission of such information represents
-                    your agreement to that transfer. Turkish Citizenship Advisor  will take all steps reasonably
-                    necessary to ensure that your data is treated securely and in accordance with
-                    this Privacy Policy and no transfer of your Personal Data will take place to an
-                    organization or a country unless there are adequate controls in place including
-                    the security of your data and other personal information.
-                  </p>
-                </div>
-                <h3>Disclosure Of Data</h3>
-                <div>
-                  <h4>Legal Requirements</h4>
-                  <p>
-                    https://london-tca.co.uk/ may disclose your Personal Data in the good faith belief that
-                    such action is necessary to:
-                  </p>
-                  <ul>
-                    <li>To comply with a legal obligation</li>
-                    <li>
-                      To protect and defend the rights or property of Turkish Citizenship Advisor
-                    </li>
-                    <li>
-                      To prevent or investigate possible wrongdoing in connection with the Service
-                    </li>
-                    <li>To protect the personal safety of users of the Service or the public</li>
-                    <li>To protect against legal liability</li>
-                  </ul>
-                </div>
-                <div>
-                  <h3>Security Of Data</h3>
-                  <p>
-                    The security of your data is important to us, but remember that no method of
-                    transmission over the Internet, or method of electronic storage is 100% secure.
-                    While we strive to use commercially acceptable means to protect your Personal
-                    Data, we cannot guarantee its absolute security.
-                  </p>
-                </div>
-                <div>
-                  <h3>Service Providers</h3>
-                  <p>
-                    We may employ third party companies and individuals to facilitate our Service
-                    (“Service Providers”), to provide the Service on our behalf, to perform
-                    Service-related services or to assist us in analyzing how our Service is used.
-                    These third parties have access to your Personal Data only to perform these
-                    tasks on our behalf and are obligated not to disclose or use it for any other
-                    purpose.
-                  </p>
-                </div>
-                <div>
-                  <h3>Analytics</h3>
-                  <p>
-                    We may use third-party Service Providers to monitor and analyze the use of our
-                    Service. <br />
+								<div>
+									<h4>Personal Data</h4>
+									<p>
+										While using our Service, we may ask you to provide us with
+										certain personally identifiable information that can be used
+										to contact or identify you (“Personal Data”). Personally
+										identifiable information may include, but is not limited to:
+									</p>
+									<ul>
+										<li>Email address</li>
+										<li>First name and last name</li>
+										<li>Phone number</li>
+										<li>Address, State, Province, ZIP/Postal code, City</li>
+										<li>Cookies and Usage Data</li>
+									</ul>
+								</div>
+								<div>
+									<h4>Usage Data</h4>
+									<p>
+										We may also collect information how the Service is accessed
+										and used (“Usage Data”). This Usage Data may include
+										information such as your computer’s Internet Protocol
+										address (e.g. IP address), browser type, browser version,
+										the pages of our Service that you visit, the time and date
+										of your visit, the time spent on those pages, unique device
+										identifiers and other diagnostic data.
+									</p>
+								</div>
+								<div>
+									<h4>Tracking & Cookies Data</h4>
+									<p>
+										We use cookies and similar tracking technologies to track
+										the activity on our Service and hold certain information.
+										Cookies are files with small amount of data which may
+										include an anonymous unique identifier. Cookies are sent to
+										your browser from a website and stored on your device.
+										Tracking technologies also used are beacons, tags, and
+										scripts to collect and track information and to improve and
+										analyze our Service. You can instruct your browser to refuse
+										all cookies or to indicate when a cookie is being sent.
+										However, if you do not accept cookies, you may not be able
+										to use some portions of our Service. Examples of Cookies we
+										use: <br />
+										<strong>Session Cookies:</strong> We use Session Cookies to
+										operate our Service.
+										<br />
+										<strong>Preference Cookies:</strong> We use Preference
+										Cookies to remember your preferences and various settings.
+										<br />
+										<strong>Security Cookies:</strong> We use Security Cookies
+										for security purposes.
+									</p>
+								</div>
+								<div>
+									<h4>Use of Data</h4>
+									<p>
+										London HomeSmart EV uses the collected data for various
+										purposes:
+									</p>
+									<ul>
+										<li>To provide and maintain the Service</li>
+										<li>To notify you about changes to our Service</li>
+										<li>
+											To allow you to participate in interactive features of our
+											Service when you choose to do so
+										</li>
+										<li>
+											To provide analysis or valuable information so that we can
+											improve the Service
+										</li>
+										<li>To monitor the usage of the Service</li>
+										<li>To detect, prevent and address technical issuese</li>
+									</ul>
+								</div>
+								<div>
+									<h4>Transfer Of Data</h4>
+									<p>
+										Your information, including Personal Data, may be
+										transferred to — and maintained on — computers located
+										outside of your state, province, country or other
+										governmental jurisdiction where the data protection laws may
+										differ than those from your jurisdiction. If you are located
+										outside United Kingdom and choose to provide information to
+										us, please note that we transfer the data, including
+										Personal Data, to United Kingdom and process it there. Your
+										consent to this Privacy Policy followed by your submission
+										of such information represents your agreement to that
+										transfer. London HomeSmart EV will take all steps reasonably
+										necessary to ensure that your data is treated securely and
+										in accordance with this Privacy Policy and no transfer of
+										your Personal Data will take place to an organization or a
+										country unless there are adequate controls in place
+										including the security of your data and other personal
+										information.
+									</p>
+								</div>
+								<h3>Disclosure Of Data</h3>
+								<div>
+									<h4>Legal Requirements</h4>
+									<p>
+										https://london-ec.co.uk/ may disclose your Personal Data in
+										the good faith belief that such action is necessary to:
+									</p>
+									<ul>
+										<li>To comply with a legal obligation</li>
+										<li>
+											To protect and defend the rights or property of Turkish
+											Citizenship Advisor
+										</li>
+										<li>
+											To prevent or investigate possible wrongdoing in
+											connection with the Service
+										</li>
+										<li>
+											To protect the personal safety of users of the Service or
+											the public
+										</li>
+										<li>To protect against legal liability</li>
+									</ul>
+								</div>
+								<div>
+									<h3>Security Of Data</h3>
+									<p>
+										The security of your data is important to us, but remember
+										that no method of transmission over the Internet, or method
+										of electronic storage is 100% secure. While we strive to use
+										commercially acceptable means to protect your Personal Data,
+										we cannot guarantee its absolute security.
+									</p>
+								</div>
+								<div>
+									<h3>Service Providers</h3>
+									<p>
+										We may employ third party companies and individuals to
+										facilitate our Service (“Service Providers”), to provide the
+										Service on our behalf, to perform Service-related services
+										or to assist us in analyzing how our Service is used. These
+										third parties have access to your Personal Data only to
+										perform these tasks on our behalf and are obligated not to
+										disclose or use it for any other purpose.
+									</p>
+								</div>
+								<div>
+									<h3>Analytics</h3>
+									<p>
+										We may use third-party Service Providers to monitor and
+										analyze the use of our Service. <br />
 
-                    Google AnalyticsGoogle Analytics is a web analytics service offered by Google
-                    that tracks and reports website traffic. Google uses the data collected to track
-                    and monitor the use of our Service. This data is shared with other Google
-                    services. Google may use the collected data to contextualize and personalize the
-                    ads of its own advertising network.You can opt-out of having made your activity
-                    on the Service available to Google Analytics by installing the Google Analytics
-                    opt-out browser add-on. The add-on prevents the Google Analytics JavaScript
-                    (ga.js, analytics.js, and dc.js) from sharing information with Google Analytics
-                    about visits activity.For more information on the privacy practices of Google,
-                    please visit the Google Privacy & Terms web page:
-                    https://policies.google.com/privacy?hl=en Links To Other Sites Our Service may
-                    contain links to other sites that are not operated by us. If you click on a
-                    third party link, you will be directed to that third party’s site. We strongly
-                    advise you to review the Privacy Policy of every site you visit. We have no
-                    control over and assume no responsibility for the content, privacy policies or
-                    practices of any third party sites or services.
-                  </p>
-                </div>
-                <div>
-                  <h3>Children’s Privacy</h3>
-                  <p>
-                    Our Service does not address anyone under the age of 18 (“Children”). We do not
-                    knowingly collect personally identifiable information from anyone under the age
-                    of 18. If you are a parent or guardian and you are aware that your Children has
-                    provided us with Personal Data, please contact us. If we become aware that we
-                    have collected Personal Data from children without verification of parental
-                    consent, we take steps to remove that information from our servers.
-                  </p>
-                </div>
-                <div>
-                  <h3>Changes To This Privacy Policy</h3>
-                  <p>
-                    We may update our Privacy Policy from time to time. We will notify you of any
-                    changes by posting the new Privacy Policy on this page. We will let you know via
-                    email and/or a prominent notice on our Service, prior to the change becoming
-                    effective and update the “effective date” at the top of this Privacy Policy. You
-                    are advised to review this Privacy Policy periodically for any changes. Changes
-                    to this Privacy Policy are effective when they are posted on this page.
-                  </p>
-                </div>
-                <div>
-                  <h3>Contact Us</h3>
-                  <p>
-                    If you have any questions about this Privacy Policy, please contact us: By
-                    email: Info@rent-to-buy-cars.uk
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      
+										Google AnalyticsGoogle Analytics is a web analytics service
+										offered by Google that tracks and reports website traffic.
+										Google uses the data collected to track and monitor the use
+										of our Service. This data is shared with other Google
+										services. Google may use the collected data to contextualize
+										and personalize the ads of its own advertising network.You
+										can opt-out of having made your activity on the Service
+										available to Google Analytics by installing the Google
+										Analytics opt-out browser add-on. The add-on prevents the
+										Google Analytics JavaScript (ga.js, analytics.js, and dc.js)
+										from sharing information with Google Analytics about visits
+										activity.For more information on the privacy practices of
+										Google, please visit the Google Privacy & Terms web page:
+										https://policies.google.com/privacy?hl=en Links To Other
+										Sites Our Service may contain links to other sites that are
+										not operated by us. If you click on a third party link, you
+										will be directed to that third party’s site. We strongly
+										advise you to review the Privacy Policy of every site you
+										visit. We have no control over and assume no responsibility
+										for the content, privacy policies or practices of any third
+										party sites or services.
+									</p>
+								</div>
+								<div>
+									<h3>Children’s Privacy</h3>
+									<p>
+										Our Service does not address anyone under the age of 18
+										(“Children”). We do not knowingly collect personally
+										identifiable information from anyone under the age of 18. If
+										you are a parent or guardian and you are aware that your
+										Children has provided us with Personal Data, please contact
+										us. If we become aware that we have collected Personal Data
+										from children without verification of parental consent, we
+										take steps to remove that information from our servers.
+									</p>
+								</div>
+								<div>
+									<h3>Changes To This Privacy Policy</h3>
+									<p>
+										We may update our Privacy Policy from time to time. We will
+										notify you of any changes by posting the new Privacy Policy
+										on this page. We will let you know via email and/or a
+										prominent notice on our Service, prior to the change
+										becoming effective and update the “effective date” at the
+										top of this Privacy Policy. You are advised to review this
+										Privacy Policy periodically for any changes. Changes to this
+										Privacy Policy are effective when they are posted on this
+										page.
+									</p>
+								</div>
+								<div>
+									<h3>Contact Us</h3>
+									<p>
+										If you have any questions about this Privacy Policy, please
+										contact us: By email: Info@london-ec.co.uk
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
 			<section class="sticky-mobile d-sm-block d-md-none">
 				<div class="container">
 					<div class="row">
@@ -550,7 +699,7 @@
 			<section class="footer d-none d-md-block">
 				<div class="container-md">
 					<p class="copy text-center">
-						Copyright © 2020 Turkish Citizenship Advisor. All rights reserved.
+						Copyright © 2020 London HomeSmart EV. All rights reserved.
 					</p>
 				</div>
 			</section>
@@ -573,9 +722,11 @@
 			crossorigin="anonymous"
 		></script>
 		<!-- cookies code -->
-		<script type="text/javascript" id="cookieinfo"
-        src="//cookieinfoscript.com/js/cookieinfo.min.js">
-    </script>
+		<script
+			type="text/javascript"
+			id="cookieinfo"
+			src="//cookieinfoscript.com/js/cookieinfo.min.js"
+		></script>
 		<script src="./dist/js/app.js"></script>
 	</body>
 </html>
