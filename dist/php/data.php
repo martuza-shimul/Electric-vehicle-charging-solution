@@ -15,12 +15,6 @@ if(empty($_POST['name'])  		||
 	return false;
    }
 
-   
-  
-
-
-
-
 $charger_type = $_POST['first'];
 // $second = $_POST['check'];
 // $type = implode(', ', $second); //vehicle type
